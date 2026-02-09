@@ -1,0 +1,23 @@
+{
+  "name": "Data/Hora do último carrinho (Cliente Navegando)",
+  "expression": [
+    "",
+    "VAR CurAcc = SELECTEDVALUE ( dClientes[account_id] )",
+    "VAR Sess   = [Session do último carrinho (Cliente Navegando)]",
+    "RETURN",
+    "IF (",
+    "    ISBLANK ( CurAcc ) || ISBLANK ( Sess ),",
+    "    BLANK (),",
+    "    CALCULATE (",
+    "        MAX ( fCarrinhos_abandonados[date_created] ),",
+    "        FILTER (",
+    "            ALL ( fCarrinhos_abandonados ),",
+    "            fCarrinhos_abandonados[client_account_id] = CurAcc",
+    "                && fCarrinhos_abandonados[session_id] = Sess",
+    "        )",
+    "    )",
+    ")"
+  ],
+  "formatString": "General Date",
+  "lineageTag": "634b5f4f-8b0c-49ef-b1d5-a6824d4a2b62"
+}

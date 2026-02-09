@@ -1,0 +1,14 @@
+{
+  "name": "Periodo",
+  "dataType": "string",
+  "sourceColumn": "Periodo",
+  "lineageTag": "747c453f-3642-4e61-b8b7-f6e0d888f1fd",
+  "sourceLineageTag": "Periodo",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

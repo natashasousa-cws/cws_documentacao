@@ -1,0 +1,15 @@
+{
+  "name": "account_create_date",
+  "dataType": "dateTime",
+  "sourceColumn": "account_create_date",
+  "formatString": "General Date",
+  "lineageTag": "fd98a12c-32ca-4702-945b-915ac0348140",
+  "sourceLineageTag": "account_create_date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

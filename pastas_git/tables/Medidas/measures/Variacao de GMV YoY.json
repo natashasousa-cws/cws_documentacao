@@ -1,0 +1,16 @@
+{
+  "name": "Variacao de GMV YoY",
+  "expression": [
+    "",
+    "VAR variacao = [GMV] - [GMV YoY]",
+    "",
+    "RETURN",
+    "DIVIDE(",
+    "    variacao,",
+    "    [GMV YoY]",
+    ")"
+  ],
+  "formatString": "0%;-0%;0%",
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "80a98524-104c-4431-856e-83c9338aa501"
+}

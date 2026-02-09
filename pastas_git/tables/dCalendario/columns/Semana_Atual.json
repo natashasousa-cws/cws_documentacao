@@ -1,0 +1,15 @@
+{
+  "name": "Semana_Atual",
+  "dataType": "boolean",
+  "sourceColumn": "Semana_Atual",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "3385e925-05f1-4b32-bdc6-67b7817b923f",
+  "sourceLineageTag": "Semana_Atual",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

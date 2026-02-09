@@ -1,0 +1,7 @@
+{
+  "name": "cfef15ce-c574-2bd5-9c8d-02947966eda8",
+  "fromTable": "fDatalayer_product_pageviews",
+  "fromColumn": "account_id",
+  "toTable": "dClientes",
+  "toColumn": "account_id"
+}

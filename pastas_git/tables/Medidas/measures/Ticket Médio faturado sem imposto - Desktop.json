@@ -1,0 +1,24 @@
+{
+  "name": "Ticket Médio faturado sem imposto - Desktop",
+  "expression": [
+    "",
+    "DIVIDE (",
+    "    [Faturamento digital sem imposto - Desktop],",
+    "    [Pedidos faturados - Desktop]",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ticket Médio\\Faturado sem imposto",
+  "lineageTag": "864e16e1-3afd-4eb2-b957-dd34e41e7833",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

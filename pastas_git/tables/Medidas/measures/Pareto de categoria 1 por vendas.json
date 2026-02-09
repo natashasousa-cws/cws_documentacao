@@ -1,0 +1,27 @@
+{
+  "name": "Pareto de categoria 1 por vendas",
+  "expression": [
+    "",
+    "VAR TotalVendas = CALCULATE([GMV], ALLSELECTED(dProdutos))",
+    "VAR TotalAtual = [GMV]",
+    "VAR tbResumo = ",
+    "    SUMMARIZE(",
+    "        ALLSELECTED(dProdutos),",
+    "        dProdutos[category_level_1],",
+    "        \"Total\", [GMV]",
+    "    )",
+    "VAR TotalAcumulado = ",
+    "    SUMX(",
+    "        FILTER(",
+    "            tbResumo,",
+    "            [Total] >= TotalAtual",
+    "        ),",
+    "        [Total]",
+    "    )",
+    "RETURN",
+    "TotalAcumulado / TotalVendas"
+  ],
+  "formatString": "0%;-0%;0%",
+  "displayFolder": "Produtos\\Categoria",
+  "lineageTag": "6cf0812b-b431-4643-894b-a5c2653955d7"
+}

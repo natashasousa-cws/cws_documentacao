@@ -1,0 +1,14 @@
+{
+  "name": "nivel",
+  "dataType": "string",
+  "sourceColumn": "nivel",
+  "lineageTag": "72b174ec-b8df-4b5a-bab0-d191e08913c4",
+  "sourceLineageTag": "nivel",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Limite de valor Pedidos",
+  "expression": "[Pedidos] * 1.2",
+  "displayFolder": "Formatação",
+  "lineageTag": "cfb33919-9f58-475a-8b69-f9bd7b5cfd70",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

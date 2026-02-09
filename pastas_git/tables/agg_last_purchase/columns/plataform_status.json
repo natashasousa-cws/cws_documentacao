@@ -1,0 +1,14 @@
+{
+  "name": "plataform_status",
+  "dataType": "string",
+  "sourceColumn": "plataform_status",
+  "lineageTag": "c7cff7ad-6258-48f7-a4e3-09d70c3fd998",
+  "sourceLineageTag": "plataform_status",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

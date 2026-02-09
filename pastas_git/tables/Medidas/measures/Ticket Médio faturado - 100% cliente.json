@@ -1,0 +1,25 @@
+{
+  "name": "Ticket Médio faturado - 100% cliente",
+  "description": "Ticket médio dos pedidos em auto atendimento",
+  "expression": [
+    "",
+    "DIVIDE (",
+    "    [Faturamento digital - 100% cliente],",
+    "    [Pedidos faturados - 100% cliente]",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ticket Médio\\Faturado com imposto",
+  "lineageTag": "bf7662ed-5050-4b58-860d-4c60b2ebeb60",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "order_total",
+  "dataType": "decimal",
+  "sourceColumn": "order_total",
+  "formatString": "\"R$\"\\ #,0;-\"R$\"\\ #,0;\"R$\"\\ #,0",
+  "lineageTag": "c2724281-eab2-47bd-a89e-6c5685a5837c",
+  "sourceLineageTag": "order_total",
+  "summarizeBy": "sum",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

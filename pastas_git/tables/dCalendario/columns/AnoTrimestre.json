@@ -1,0 +1,15 @@
+{
+  "name": "AnoTrimestre",
+  "dataType": "int64",
+  "sourceColumn": "AnoTrimestre",
+  "formatString": "0",
+  "lineageTag": "37a15c71-6f51-4fb7-b0ec-f3cc220c6852",
+  "sourceLineageTag": "AnoTrimestre",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

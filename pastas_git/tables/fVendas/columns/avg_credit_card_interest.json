@@ -1,0 +1,19 @@
+{
+  "name": "avg_credit_card_interest",
+  "dataType": "decimal",
+  "sourceColumn": "avg_credit_card_interest",
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "lineageTag": "40de609a-3ece-4d1a-aece-3575b00af143",
+  "sourceLineageTag": "avg_credit_card_interest",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

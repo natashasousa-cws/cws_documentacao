@@ -1,0 +1,15 @@
+{
+  "name": "AnoMes_Fechamento",
+  "dataType": "int64",
+  "sourceColumn": "AnoMes_Fechamento",
+  "formatString": "0",
+  "lineageTag": "e3cf1d15-bb98-4ef2-be5d-28c34f42710a",
+  "sourceLineageTag": "AnoMes_Fechamento",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "cart_type",
+  "dataType": "string",
+  "sourceColumn": "cart_type",
+  "lineageTag": "32196965-9ff3-4a33-a3ea-7ec792488380",
+  "sourceLineageTag": "cart_type",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

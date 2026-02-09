@@ -1,0 +1,12 @@
+{
+  "name": "Vendedores cadastrados",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(dVendedores[account_id])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Vendedores",
+  "lineageTag": "038ebe2d-2892-41f0-a847-e2b419b072e2"
+}

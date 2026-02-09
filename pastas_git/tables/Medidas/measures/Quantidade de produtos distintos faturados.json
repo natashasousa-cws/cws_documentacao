@@ -1,0 +1,19 @@
+{
+  "name": "Quantidade de produtos distintos faturados",
+  "description": "Quantidade distinta de itens.",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DISTINCTCOUNT ( fVendas[sku_id] ),",
+    "    dStatus_pedido[order_status_id] > 4",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Produtos\\Faturado",
+  "lineageTag": "ac1b5bb8-04cb-4ecc-ba9c-de8a4baf98f8",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ]
+}

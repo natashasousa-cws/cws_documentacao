@@ -1,0 +1,11 @@
+{
+  "name": "Pedidos faturados - Mobile",
+  "description": "Pedidos via mobile",
+  "expression": [
+    "",
+    "CALCULATE ( [Pedidos faturados], dDispositivos[device_id] = 2 )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Faturado",
+  "lineageTag": "436c30e6-7da0-4311-b374-d6ef544fc4c4"
+}

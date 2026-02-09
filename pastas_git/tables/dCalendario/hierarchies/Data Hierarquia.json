@@ -1,0 +1,29 @@
+{
+  "name": "Data Hierarquia",
+  "lineageTag": "e80a35d4-fc49-4278-ab1f-9cf17d380d87",
+  "levels": [
+    {
+      "name": "Ano",
+      "ordinal": 0,
+      "column": "Ano",
+      "lineageTag": "ae3c6783-b067-41d8-bd0e-d3909fcca485"
+    },
+    {
+      "name": "Mês",
+      "ordinal": 1,
+      "column": "Mês",
+      "lineageTag": "1c3c6ecd-b16b-4d67-ad35-a9b8fe75ee41"
+    },
+    {
+      "name": "Dia",
+      "ordinal": 2,
+      "column": "Dia",
+      "lineageTag": "973d1f3b-1650-4c9e-9bf5-2fd5da3245af"
+    }
+  ],
+  "changedProperties": [
+    {
+      "property": "Name"
+    }
+  ]
+}

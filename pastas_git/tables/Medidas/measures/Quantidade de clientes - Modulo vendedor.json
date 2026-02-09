@@ -1,0 +1,14 @@
+{
+  "name": "Quantidade de clientes - Modulo vendedor",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de clientes com pedidos],",
+    "    FILTER(dClientes,",
+    "    [Pedidos faturados - Módulo vendedor])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Clientes",
+  "lineageTag": "ca931785-5a5d-481b-a46a-4a2a446d0a61"
+}

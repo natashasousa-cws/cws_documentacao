@@ -1,0 +1,14 @@
+{
+  "name": "state",
+  "dataType": "string",
+  "sourceColumn": "state",
+  "lineageTag": "49e31a65-b66c-4d26-af62-a87987aaf34c",
+  "sourceLineageTag": "state",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

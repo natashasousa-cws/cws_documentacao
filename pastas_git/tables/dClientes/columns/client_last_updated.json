@@ -1,0 +1,15 @@
+{
+  "name": "client_last_updated",
+  "dataType": "dateTime",
+  "sourceColumn": "client_last_updated",
+  "formatString": "General Date",
+  "lineageTag": "45e5c7bb-f50d-4627-9cf3-b547e7f1c300",
+  "sourceLineageTag": "client_last_updated",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

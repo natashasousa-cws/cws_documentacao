@@ -1,0 +1,14 @@
+{
+  "name": "trading_name",
+  "dataType": "string",
+  "sourceColumn": "trading_name",
+  "lineageTag": "f0a4ed4d-2cf6-441b-a5af-1b95fb783e49",
+  "sourceLineageTag": "trading_name",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

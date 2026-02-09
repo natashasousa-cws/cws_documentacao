@@ -1,0 +1,15 @@
+{
+  "name": "datekey_max_datecreated",
+  "dataType": "int64",
+  "sourceColumn": "datekey_max_datecreated",
+  "formatString": "0",
+  "lineageTag": "00f5239b-a932-497a-ae10-78e57c699baf",
+  "sourceLineageTag": "datekey_max_datecreated",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

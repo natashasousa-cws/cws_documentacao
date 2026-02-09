@@ -1,0 +1,11 @@
+{
+  "name": "Pedidos - Desktop",
+  "description": "Pedidos via desktop",
+  "expression": [
+    "",
+    "CALCULATE ( [Pedidos], dDispositivos[device_id] = 1 )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "7ec221ce-eaf6-4dbb-8adb-76d9b7d45174"
+}

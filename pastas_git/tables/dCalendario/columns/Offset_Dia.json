@@ -1,0 +1,15 @@
+{
+  "name": "Offset_Dia",
+  "dataType": "int64",
+  "sourceColumn": "Offset_Dia",
+  "formatString": "0",
+  "lineageTag": "b0bf6603-74c8-4851-841d-3ff3608af7b6",
+  "sourceLineageTag": "Offset_Dia",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

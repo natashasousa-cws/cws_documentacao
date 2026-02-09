@@ -1,0 +1,14 @@
+{
+  "name": "Quantidade de categoria-2 distintas",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DISTINCTCOUNT ( dProdutos[category_level_2] ),",
+    "    CROSSFILTER ( dProdutos[sku_id], fVendas[sku_id], BOTH ),",
+    "    dStatus_pedido[order_status_id] > 3",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Produtos\\Categoria",
+  "lineageTag": "5a651f9c-6537-45d9-b395-f5893a4d07f1"
+}

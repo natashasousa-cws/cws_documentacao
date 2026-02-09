@@ -1,0 +1,14 @@
+{
+  "name": "Periodo_do_Dia",
+  "dataType": "string",
+  "sourceColumn": "Periodo_do_Dia",
+  "lineageTag": "cf905046-11d1-4f24-9ad3-87dae71015a0",
+  "sourceLineageTag": "Periodo_do_Dia",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

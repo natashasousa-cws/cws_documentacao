@@ -1,0 +1,10 @@
+{
+  "name": "fCarrinhos_abandonados",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "fCarrinhos_abandonados",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

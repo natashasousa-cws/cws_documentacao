@@ -1,0 +1,14 @@
+{
+  "name": "melhor_envio",
+  "dataType": "string",
+  "sourceColumn": "melhor_envio",
+  "lineageTag": "7be01c67-e0b8-4ae3-8c8f-5b1fac9f7405",
+  "sourceLineageTag": "melhor_envio",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

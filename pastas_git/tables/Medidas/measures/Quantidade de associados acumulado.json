@@ -1,0 +1,13 @@
+{
+  "name": "Quantidade de associados acumulado",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de associados],",
+    "    dAssociados[partnership_date] <= MAX(dCalendario[Data])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Associados",
+  "lineageTag": "e6e07cfb-27d0-4646-a61c-e19bdc42b050"
+}

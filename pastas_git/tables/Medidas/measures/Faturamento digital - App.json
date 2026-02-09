@@ -1,0 +1,16 @@
+{
+  "name": "Faturamento digital - App",
+  "expression": [
+    "",
+    "CALCULATE ( [Faturamento digital], dDispositivos[device_id] = 3 )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\Faturado com imposto",
+  "lineageTag": "ef261193-d11d-4d49-97aa-5848fc0fedd4",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

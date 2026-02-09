@@ -1,0 +1,14 @@
+{
+  "name": "device",
+  "dataType": "string",
+  "sourceColumn": "device",
+  "lineageTag": "f44827aa-16de-4213-bf25-365a890ace4d",
+  "sourceLineageTag": "device",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

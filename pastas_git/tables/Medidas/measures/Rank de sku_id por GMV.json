@@ -1,0 +1,19 @@
+{
+  "name": "Rank de sku_id por GMV",
+  "expression": [
+    "",
+    "RANKX(",
+    "    ALLSELECTED(dProdutos[sku_name]),",
+    "    CALCULATE(",
+    "        SUMX(fVendas,",
+    "            (fVendas[quantity] * fVendas[amount_charged]) + fVendas[median_charged_shipping] + fVendas[avg_credit_card_interest] + fVendas[avg_total_tax]",
+    "        )",
+    "    ),,",
+    "    DESC,",
+    "    Dense",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Produtos\\Geral",
+  "lineageTag": "540a23fc-1c46-4a68-a173-a939d00b57a2"
+}

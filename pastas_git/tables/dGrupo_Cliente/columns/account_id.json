@@ -1,0 +1,15 @@
+{
+  "name": "account_id",
+  "dataType": "int64",
+  "sourceColumn": "account_id",
+  "formatString": "0",
+  "lineageTag": "b5c707d0-4afd-4ef6-bdc9-8a662f51f1b2",
+  "sourceLineageTag": "account_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

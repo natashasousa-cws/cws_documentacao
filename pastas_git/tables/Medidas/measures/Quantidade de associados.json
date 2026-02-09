@@ -1,0 +1,12 @@
+{
+  "name": "Quantidade de associados",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(dAssociados[partner])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Associados",
+  "lineageTag": "24bc35cb-81c2-45d3-8ce1-941f045613b6"
+}

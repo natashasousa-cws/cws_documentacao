@@ -1,0 +1,14 @@
+{
+  "name": "param_Vend_Y",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": [
+      "{",
+      "    (\"Vendedores\", NAMEOF('Medidas'[Vendedores]), 0),",
+      "    (\"Vendedores com Logins\", NAMEOF('Medidas'[Vendedores com Logins]), 1),",
+      "    (\"Vendedores com pedidos\", NAMEOF('Medidas'[Vendedores com pedidos]), 2)",
+      "}"
+    ]
+  }
+}

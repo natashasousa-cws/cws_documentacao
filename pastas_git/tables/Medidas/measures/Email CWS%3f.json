@@ -1,0 +1,16 @@
+{
+  "name": "Email CWS?",
+  "expression": [
+    "",
+    "VAR Dominio =",
+    "    CALCULATE(",
+    "        MAX(dClientes[account_user]))",
+    "RETURN",
+    "IF(",
+    "    NOT ISBLANK(Dominio) && CONTAINSSTRING(LOWER(Dominio), \"cws\"),",
+    "    \"Sim\",",
+    "    \"Não\"",
+    ")"
+  ],
+  "lineageTag": "abda0948-c7db-4735-be16-5f1fb386e7ee"
+}

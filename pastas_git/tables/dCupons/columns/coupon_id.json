@@ -1,0 +1,15 @@
+{
+  "name": "coupon_id",
+  "dataType": "int64",
+  "sourceColumn": "coupon_id",
+  "formatString": "0",
+  "lineageTag": "ac674536-039c-4eed-ac48-101e8cfb7700",
+  "sourceLineageTag": "coupon_id",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

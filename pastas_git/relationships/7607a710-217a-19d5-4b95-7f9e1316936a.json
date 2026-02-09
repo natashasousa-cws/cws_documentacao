@@ -1,0 +1,7 @@
+{
+  "name": "7607a710-217a-19d5-4b95-7f9e1316936a",
+  "fromTable": "fDatalayer_product_pageviews",
+  "fromColumn": "datekey",
+  "toTable": "dCalendario",
+  "toColumn": "datekey"
+}

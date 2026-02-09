@@ -1,0 +1,14 @@
+{
+  "name": "partner_part_code",
+  "dataType": "string",
+  "sourceColumn": "partner_part_code",
+  "lineageTag": "cedc3581-457d-460c-82e2-d529058ab3fc",
+  "sourceLineageTag": "partner_part_code",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

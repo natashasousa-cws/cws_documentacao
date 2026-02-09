@@ -1,0 +1,25 @@
+{
+  "name": "Pedidos",
+  "description": [
+    "Número de pedidos, excluindo pedidos com status:",
+    "",
+    "- Cancelado",
+    "- Aguardando pagamento",
+    "- Pré-encomenda",
+    "- Pagamento no caixa"
+  ],
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DISTINCTCOUNT ( fVendas[partner_order_id] )",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "087a6806-8028-469a-832a-5f4d821efeb7",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ]
+}

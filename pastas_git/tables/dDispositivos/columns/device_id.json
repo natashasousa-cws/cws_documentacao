@@ -1,0 +1,15 @@
+{
+  "name": "device_id",
+  "dataType": "int64",
+  "sourceColumn": "device_id",
+  "formatString": "0",
+  "lineageTag": "f21ac5e0-018d-463d-967b-cd9027393e04",
+  "sourceLineageTag": "device_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Ticket Médio por estado",
+  "description": "Ticket médio ponderado por estado",
+  "expression": [
+    "",
+    "AVERAGEX ( VALUES ( dClientes[state] ), [Ticket Médio] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ticket Médio\\GMV",
+  "lineageTag": "4bd4c7e7-15ef-4b60-8aa4-a04c38461c41",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

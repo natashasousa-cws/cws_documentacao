@@ -1,0 +1,15 @@
+{
+  "name": "Variacao de GMV MoM",
+  "expression": [
+    "",
+    "VAR ValorAtual = [GMV]",
+    "VAR ValorAnterior = [GMV MoM]",
+    "VAR Variacao = ValorAtual - ValorAnterior",
+    "",
+    "RETURN",
+    "DIVIDE(Variacao, ValorAnterior)"
+  ],
+  "formatString": "0%;-0%;0%",
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "f424f1db-c2e0-4152-b58a-31cb9260e245"
+}

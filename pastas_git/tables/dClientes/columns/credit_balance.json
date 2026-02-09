@@ -1,0 +1,19 @@
+{
+  "name": "credit_balance",
+  "dataType": "decimal",
+  "sourceColumn": "credit_balance",
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "lineageTag": "159100dd-40a5-4869-9c37-1ff7bff5ca58",
+  "sourceLineageTag": "credit_balance",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

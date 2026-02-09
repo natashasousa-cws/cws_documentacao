@@ -1,0 +1,15 @@
+{
+  "name": "shipping_type_id",
+  "dataType": "int64",
+  "sourceColumn": "shipping_type_id",
+  "formatString": "0",
+  "lineageTag": "03871a1b-d5a3-42d3-80ad-1b605b95b35a",
+  "sourceLineageTag": "shipping_type_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

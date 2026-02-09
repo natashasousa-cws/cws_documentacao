@@ -1,0 +1,27 @@
+{
+  "name": "Quantidade de SKUs distintos vistos pelo cliente no mês atual",
+  "expression": [
+    "",
+    "VAR _iniMes = DATE(YEAR(TODAY()), MONTH(TODAY()), 1)",
+    "VAR _fimMes = EOMONTH(_iniMes, 0)",
+    "RETURN",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(fDatalayer_product_pageviews[sku_id]),",
+    "    fDatalayer_product_pageviews[visitor_isloggedin] = TRUE(),",
+    "    NOT ISBLANK(fDatalayer_product_pageviews[account_id]),",
+    "    FILTER(",
+    "        fDatalayer_product_pageviews,",
+    "        VAR _k = VALUE(fDatalayer_product_pageviews[datekey_max_datecreated])",
+    "        VAR _d =",
+    "            DATE(",
+    "                INT(_k / 10000),",
+    "                INT(MOD(_k, 10000) / 100),",
+    "                MOD(_k, 100)",
+    "            )",
+    "        RETURN _d >= _iniMes && _d <= _fimMes",
+    "    )",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "7a8d91cd-1d34-4d59-bf6f-ec7c4625caf3"
+}

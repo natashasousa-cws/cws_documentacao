@@ -1,0 +1,11 @@
+{
+  "name": "Pedidos - Módulo vendedor",
+  "description": "Pedidos realizado 100% pelo vendedor.",
+  "expression": [
+    "",
+    "CALCULATE ( [Pedidos], dTipo_pedido[order_type_id] = 2 )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "2bb5a88c-5917-413e-ba41-a11a52f2e530"
+}

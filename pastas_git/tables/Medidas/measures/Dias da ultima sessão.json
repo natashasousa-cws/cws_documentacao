@@ -1,0 +1,22 @@
+{
+  "name": "Dias da ultima sessão",
+  "expression": [
+    "",
+    "VAR DataUltimaSessao =",
+    "    CALCULATE(",
+    "        MAX(dCalendario[data]),",
+    "        FILTER(",
+    "            fDatalayer_session_summary,",
+    "            fDatalayer_session_summary[user_type] = \"Cliente navegando\"",
+    "        )",
+    "    )",
+    "RETURN",
+    "IF(",
+    "    NOT ISBLANK(DataUltimaSessao),",
+    "    DATEDIFF(DataUltimaSessao, TODAY(), DAY),",
+    "    BLANK()",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "6dafd937-46aa-48ba-8af7-4682fdcd07eb"
+}

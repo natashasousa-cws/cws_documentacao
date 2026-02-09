@@ -1,0 +1,15 @@
+{
+  "name": "Ano",
+  "dataType": "int64",
+  "sourceColumn": "Ano",
+  "formatString": "0",
+  "lineageTag": "42f369bd-19c5-47d7-8d47-74f3adfe6d35",
+  "sourceLineageTag": "Ano",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

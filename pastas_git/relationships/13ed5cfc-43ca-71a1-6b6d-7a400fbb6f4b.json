@@ -1,0 +1,7 @@
+{
+  "name": "13ed5cfc-43ca-71a1-6b6d-7a400fbb6f4b",
+  "fromTable": "fVendas",
+  "fromColumn": "device_id",
+  "toTable": "dDispositivos",
+  "toColumn": "device_id"
+}

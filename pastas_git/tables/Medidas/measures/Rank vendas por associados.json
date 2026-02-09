@@ -1,0 +1,19 @@
+{
+  "name": "Rank vendas por associados",
+  "expression": [
+    "",
+    "RANKX(",
+    "    ALLSELECTED(dAssociados[trading_name]),",
+    "    CALCULATE(",
+    "        SUMX(fVendas,",
+    "            (fVendas[quantity] * fVendas[amount_charged]) + fVendas[median_charged_shipping] + fVendas[avg_credit_card_interest] + fVendas[avg_total_tax]",
+    "        )",
+    "    ),,",
+    "    DESC,",
+    "    Dense",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Associados",
+  "lineageTag": "415ec268-ab4b-49ce-b74c-9aecc28726c4"
+}

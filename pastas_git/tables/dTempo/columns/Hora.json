@@ -1,0 +1,15 @@
+{
+  "name": "Hora",
+  "dataType": "int64",
+  "sourceColumn": "Hora",
+  "formatString": "0",
+  "lineageTag": "b462962d-5fd2-42a7-80c9-8f40bc5ab694",
+  "sourceLineageTag": "Hora",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

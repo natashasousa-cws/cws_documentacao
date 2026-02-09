@@ -1,0 +1,7 @@
+{
+  "name": "fdf680fd-4df4-bc27-c046-0c0217755913",
+  "fromTable": "fDatalayer_session_summary",
+  "fromColumn": "datekey",
+  "toTable": "dCalendario",
+  "toColumn": "datekey"
+}

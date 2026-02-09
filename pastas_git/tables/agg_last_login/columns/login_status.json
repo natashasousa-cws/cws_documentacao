@@ -1,0 +1,14 @@
+{
+  "name": "login_status",
+  "dataType": "string",
+  "sourceColumn": "login_status",
+  "lineageTag": "bd97d2b6-36e4-489e-9890-ae869c156406",
+  "sourceLineageTag": "login_status",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

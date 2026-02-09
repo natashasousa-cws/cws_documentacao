@@ -1,0 +1,15 @@
+{
+  "name": "sku_created_date",
+  "dataType": "dateTime",
+  "sourceColumn": "sku_created_date",
+  "formatString": "General Date",
+  "lineageTag": "063fc400-514e-417a-b690-d53e457f3e26",
+  "sourceLineageTag": "sku_created_date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

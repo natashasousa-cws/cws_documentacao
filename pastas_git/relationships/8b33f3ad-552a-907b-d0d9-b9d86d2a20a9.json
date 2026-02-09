@@ -1,0 +1,8 @@
+{
+  "name": "8b33f3ad-552a-907b-d0d9-b9d86d2a20a9",
+  "fromTable": "dCalendario",
+  "fromColumn": "Data",
+  "toTable": "dVendedores",
+  "toColumn": "client_create_date",
+  "isActive": false
+}

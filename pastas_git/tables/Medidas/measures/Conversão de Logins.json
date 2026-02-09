@@ -1,0 +1,11 @@
+{
+  "name": "Conversão de Logins",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    [Quantidade de login],",
+    "    [pedidos potencial]",
+    ")"
+  ],
+  "lineageTag": "41d975e9-70ee-4311-98ce-3b34758664d1"
+}

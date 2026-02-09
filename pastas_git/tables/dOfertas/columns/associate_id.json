@@ -1,0 +1,15 @@
+{
+  "name": "associate_id",
+  "dataType": "int64",
+  "sourceColumn": "associate_id",
+  "formatString": "0",
+  "lineageTag": "5dc4f521-a403-422b-93c2-d5e4d35ee130",
+  "sourceLineageTag": "associate_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

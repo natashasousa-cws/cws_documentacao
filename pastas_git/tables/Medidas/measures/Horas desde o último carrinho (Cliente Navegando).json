@@ -1,0 +1,15 @@
+{
+  "name": "Horas desde o último carrinho (Cliente Navegando)",
+  "expression": [
+    "",
+    "VAR UltDt = [Data/Hora do último carrinho (Cliente Navegando)]",
+    "RETURN",
+    "IF (",
+    "    ISBLANK ( UltDt ),",
+    "    BLANK (),",
+    "    DATEDIFF ( UltDt, NOW (), HOUR )",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "bf133167-b9bc-4be3-9ab2-a58bb4fe7802"
+}

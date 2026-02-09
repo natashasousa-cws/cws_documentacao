@@ -1,0 +1,16 @@
+{
+  "name": "Concentração GMV",
+  "expression": [
+    "",
+    "[GMV]-[GMV Vendedor]"
+  ],
+  "formatString": "\"R$\"\\ #,0.###############;-\"R$\"\\ #,0.###############;\"R$\"\\ #,0.###############",
+  "displayFolder": "Receita digital\\GMV",
+  "lineageTag": "d27af8e8-ad67-41e8-9197-5366470f3739",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

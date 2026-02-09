@@ -1,0 +1,15 @@
+{
+  "name": "Dia",
+  "dataType": "int64",
+  "sourceColumn": "Dia",
+  "formatString": "0",
+  "lineageTag": "4799784f-f4b8-4c4a-81df-75a9a11381dc",
+  "sourceLineageTag": "Dia",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

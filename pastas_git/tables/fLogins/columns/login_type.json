@@ -1,0 +1,14 @@
+{
+  "name": "login_type",
+  "dataType": "string",
+  "sourceColumn": "login_type",
+  "lineageTag": "2fe84c82-6b46-47d3-a89a-97f2244ff670",
+  "sourceLineageTag": "login_type",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

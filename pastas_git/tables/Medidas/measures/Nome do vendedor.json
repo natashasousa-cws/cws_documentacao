@@ -1,0 +1,14 @@
+{
+  "name": "Nome do vendedor",
+  "expression": [
+    "VAR IDVendedor = Medidas[ID do vendedor]",
+    "RETURN",
+    "CALCULATE(",
+    "    LOOKUPVALUE(",
+    "        dVendedores[name],",
+    "        dVendedores[account_id],",
+    "        IDVendedor))",
+    "        "
+  ],
+  "lineageTag": "c7838d0f-123f-41c0-92dc-25ecf5e7770e"
+}

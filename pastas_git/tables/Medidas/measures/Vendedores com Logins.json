@@ -1,0 +1,15 @@
+{
+  "name": "Vendedores com Logins",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Vendedores],",
+    "    FILTER(dVendedores,",
+    "    [Quantidade de login] <> 0),",
+    "    USERELATIONSHIP(dVendedores[account_id],fLogins[account_id])",
+    ")+0"
+  ],
+  "formatString": "0",
+  "displayFolder": "Vendedores",
+  "lineageTag": "de597a3c-b95e-4605-b827-72ed94bef965"
+}

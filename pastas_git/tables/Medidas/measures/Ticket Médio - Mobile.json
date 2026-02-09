@@ -1,0 +1,21 @@
+{
+  "name": "Ticket Médio - Mobile",
+  "expression": [
+    "",
+    "DIVIDE ( [GMV - Mobile], [Pedidos - Mobile] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Ticket Médio\\GMV",
+  "lineageTag": "34e7bc87-4537-483a-98ba-be4417120c65",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "param_Cliente_Y",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": [
+      "{",
+      "    (\"Quantidade de clientes\", NAMEOF('Medidas'[Quantidade de clientes]), 0),",
+      "    (\"Clientes - Autoatendimento\", NAMEOF('Medidas'[Clientes Autoatendimento]), 1),",
+      "    (\"Clientes - Venda assistida\", NAMEOF('Medidas'[Quantidade de clientes - Venda assistida]), 2),",
+      "    (\"Clientes - Modulo vendedor\", NAMEOF('Medidas'[Quantidade de clientes - Modulo vendedor]), 3),",
+      "    (\"Quantidade de clientes - App\", NAMEOF('Medidas'[Quantidade de clientes - App]), 4),",
+      "    (\"Quantidade de clientes - Desktop\", NAMEOF('Medidas'[Quantidade de clientes - Desktop]), 5),",
+      "    (\"Quantidade de clientes - Mobile\", NAMEOF('Medidas'[Quantidade de clientes - Mobile]), 6),",
+      "    (\"Clientes acumulado\", NAMEOF('Medidas'[Quantidade clientes acumulado por ano]), 7),",
+      "    (\"Clientes sem pedidos\", NAMEOF('Medidas'[Clients sem pedidos]), 8),",
+      "    (\"Cclientes com pedidos\", NAMEOF('Medidas'[Quantidade de clientes com pedidos]), 9),",
+      "    (\"Clientes com GMV\", NAMEOF('Medidas'[Clientes com GMV]), 10),",
+      "    (\"Ranking de clientes por GMV\", NAMEOF('Medidas'[Ranking de clientes por GMV]), 11),",
+      "    (\"Quantidade de clientes - 100% cliente\", NAMEOF('Medidas'[Quantidade de clientes - 100% cliente]), 12)",
+      "}"
+    ]
+  }
+}

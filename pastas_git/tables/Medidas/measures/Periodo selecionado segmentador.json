@@ -1,0 +1,13 @@
+{
+  "name": "Periodo selecionado segmentador",
+  "expression": [
+    "",
+    "VAR dt_min = [Data minima]",
+    "VAR dt_max = [Data maxima]",
+    "",
+    "RETURN",
+    "\"Período selecionado: \"& dt_min &\" a \"& dt_max"
+  ],
+  "displayFolder": "Texto",
+  "lineageTag": "9d50c407-7682-493e-a0c2-1af5d7afc11f"
+}

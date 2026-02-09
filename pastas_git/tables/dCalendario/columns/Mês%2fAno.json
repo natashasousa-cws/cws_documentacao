@@ -1,0 +1,14 @@
+{
+  "name": "Mês/Ano",
+  "dataType": "string",
+  "sourceColumn": "Mês/Ano",
+  "lineageTag": "ed00ce16-5884-4eb6-aea5-fd88a2f2f8b2",
+  "sourceLineageTag": "Mês/Ano",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

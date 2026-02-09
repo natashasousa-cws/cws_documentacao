@@ -1,0 +1,14 @@
+{
+  "name": "invoice",
+  "dataType": "string",
+  "sourceColumn": "invoice",
+  "lineageTag": "bf99d676-7257-46b4-8e94-466c8f991779",
+  "sourceLineageTag": "invoice",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

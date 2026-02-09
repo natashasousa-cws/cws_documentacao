@@ -1,0 +1,21 @@
+{
+  "name": "Qte itens do último carrinho",
+  "expression": [
+    "",
+    "VAR UltimaDataCarrinho =",
+    "    CALCULATE(",
+    "        MAX('dCalendario'[Data]),",
+    "        KEEPFILTERS(fCarrinhos_abandonados)",
+    "    )",
+    "RETURN",
+    "CALCULATE(",
+    "    [Quantidade de itens no carrinho],",
+    "    FILTER(",
+    "        fCarrinhos_abandonados,",
+    "        RELATED('dCalendario'[Data]) = UltimaDataCarrinho",
+    "    )",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "0ac05122-188e-4c6c-a7de-07e2e0008a1c"
+}

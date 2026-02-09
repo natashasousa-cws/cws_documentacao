@@ -1,0 +1,19 @@
+{
+  "name": "avg_total_tax",
+  "dataType": "decimal",
+  "sourceColumn": "avg_total_tax",
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "lineageTag": "d6352cfe-56d3-4d5c-af9b-b334cf9a85ef",
+  "sourceLineageTag": "avg_total_tax",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

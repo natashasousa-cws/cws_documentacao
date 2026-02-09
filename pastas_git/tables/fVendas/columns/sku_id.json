@@ -1,0 +1,15 @@
+{
+  "name": "sku_id",
+  "dataType": "int64",
+  "sourceColumn": "sku_id",
+  "formatString": "0",
+  "lineageTag": "d5726ba6-a189-436d-9913-a2019e571b7d",
+  "sourceLineageTag": "sku_id",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

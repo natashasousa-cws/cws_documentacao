@@ -1,0 +1,13 @@
+{
+  "name": "Funil - frete",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    COUNT(fDatalayer_agg_pageviews[sessoes_distintas]),",
+    "    fDatalayer_agg_pageviews[funil] IN {\"escolha-frete\"}",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Datalayer - Funil",
+  "lineageTag": "11ebed80-f524-443d-9121-ac6ff6b2ac4e"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "fDatalayer_product_pageviews",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "fDatalayer_product_pageviews",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

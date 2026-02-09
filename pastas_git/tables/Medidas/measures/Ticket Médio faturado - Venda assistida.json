@@ -1,0 +1,25 @@
+{
+  "name": "Ticket Médio faturado - Venda assistida",
+  "description": "Ticket médio dos pedidos de venda assistida",
+  "expression": [
+    "",
+    "DIVIDE (",
+    "    [Faturamento digital - Venda assistida],",
+    "    [Pedidos faturados - Venda assistida]",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ticket Médio\\Faturado com imposto",
+  "lineageTag": "046852ce-acf6-4801-97b1-040841e87943",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

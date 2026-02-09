@@ -1,0 +1,42 @@
+{
+  "name": "GMV MoM",
+  "expression": [
+    "",
+    "VAR UltimaData = ",
+    "CALCULATE(",
+    "    MAX(fVendas[datekey]),",
+    "    REMOVEFILTERS(dCalendario)",
+    ")",
+    "",
+    "VAR UltimaDataReal =",
+    "DATE(",
+    "    INT(UltimaData / 10000),                            -- Ano",
+    "    INT(MOD(UltimaData, 10000) / 100),                  -- Mês",
+    "    MOD(UltimaData, 100)                                -- Dia",
+    ")",
+    "",
+    "VAR DataLimite =",
+    "EDATE(UltimaDataReal, -1)",
+    "",
+    "VAR MoM =",
+    "CALCULATE(",
+    "    [GMV],",
+    "    DATEADD(dCalendario[Data], -1,MONTH),",
+    "    FILTER(",
+    "        ALL(dCalendario), dCalendario[Data] <= DataLimite",
+    "    )",
+    ")",
+    "",
+    "RETURN",
+    "MoM"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "7825d022-bbbb-4db1-8efc-e5232b41a6e3",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

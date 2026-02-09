@@ -1,0 +1,42 @@
+{
+  "name": "GMV YoY",
+  "expression": [
+    "",
+    "VAR UltimaData = ",
+    "CALCULATE(",
+    "    MAX(fVendas[datekey]),",
+    "    REMOVEFILTERS(dCalendario)",
+    ")",
+    "",
+    "VAR UltimaDataReal =",
+    "DATE(",
+    "    INT(UltimaData / 10000),                            -- Ano",
+    "    INT(MOD(UltimaData, 10000) / 100),                  -- Mês",
+    "    MOD(UltimaData, 100)                                -- Dia",
+    ")",
+    "",
+    "VAR DataLimite =",
+    "EDATE(UltimaDataReal, -12)",
+    "",
+    "VAR YoY =",
+    "CALCULATE(",
+    "    [GMV],",
+    "    DATEADD(dCalendario[Data], -12,MONTH),",
+    "    FILTER(",
+    "        ALL(dCalendario), dCalendario[Data] <= DataLimite",
+    "    )",
+    ")",
+    "",
+    "RETURN",
+    "YoY"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "b4f5b010-ff8b-4fda-96cb-2546570541ae",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

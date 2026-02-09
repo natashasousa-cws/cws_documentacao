@@ -1,0 +1,10 @@
+{
+  "name": "Frequencia de pedidos por cliente",
+  "expression": [
+    "",
+    "AVERAGEX ( VALUES ( dClientes[account_id] ), [Frequencia de pedidos] )"
+  ],
+  "formatString": "#,0.0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "6f3bce38-0946-4494-aac3-a26d1bf82b85"
+}

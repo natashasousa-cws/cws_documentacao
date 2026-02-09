@@ -1,0 +1,22 @@
+{
+  "name": "Ticket Médio - Autoatendimento",
+  "description": "Ticket médio dos pedidos em auto atendimento",
+  "expression": [
+    "",
+    "DIVIDE ( [GMV - Autoatendimento], [Pedidos - Autoatendimento] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Ticket Médio\\GMV",
+  "lineageTag": "fa8ccaae-ee8e-406d-981e-deb24e7f4821",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

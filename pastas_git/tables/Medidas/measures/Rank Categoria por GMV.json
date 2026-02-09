@@ -1,0 +1,24 @@
+{
+  "name": "Rank Categoria por GMV",
+  "expression": [
+    "",
+    "RANKX(",
+    "    ALLSELECTED(dProdutos[category_level_1]),",
+    "    CALCULATE(",
+    "        SUMX(",
+    "            fVendas,",
+    "            (fVendas[quantity] * fVendas[amount_charged])",
+    "            + fVendas[median_charged_shipping]",
+    "            + fVendas[avg_credit_card_interest]",
+    "            + fVendas[avg_total_tax]",
+    "        )",
+    "    ),",
+    "    ,",
+    "    DESC,",
+    "    DENSE",
+    ")",
+    ""
+  ],
+  "formatString": "0",
+  "lineageTag": "f307d938-3001-421a-bf5f-9f89700961f4"
+}

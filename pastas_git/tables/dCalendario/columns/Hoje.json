@@ -1,0 +1,15 @@
+{
+  "name": "Hoje",
+  "dataType": "boolean",
+  "sourceColumn": "Hoje",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "5a3c03e5-66db-4302-9b37-1b9ee9078421",
+  "sourceLineageTag": "Hoje",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

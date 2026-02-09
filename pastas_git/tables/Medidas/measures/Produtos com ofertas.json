@@ -1,0 +1,13 @@
+{
+  "name": "Produtos com ofertas",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de produtos cadastrados],",
+    "    FILTER(dOfertas, [Ofertas distinta] > 0)",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Produtos\\Geral",
+  "lineageTag": "42d4a1a5-d134-4fa0-a9c8-90aab161defa"
+}

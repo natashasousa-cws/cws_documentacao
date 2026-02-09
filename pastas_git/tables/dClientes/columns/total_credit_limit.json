@@ -1,0 +1,19 @@
+{
+  "name": "total_credit_limit",
+  "dataType": "decimal",
+  "sourceColumn": "total_credit_limit",
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "lineageTag": "79966d53-0865-481d-baea-d32d4e1494fe",
+  "sourceLineageTag": "total_credit_limit",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

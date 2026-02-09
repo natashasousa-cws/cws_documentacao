@@ -1,0 +1,10 @@
+{
+  "name": "dTipo_envio",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dTipo_envio",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

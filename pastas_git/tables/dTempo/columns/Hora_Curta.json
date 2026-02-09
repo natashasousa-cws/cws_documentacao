@@ -1,0 +1,14 @@
+{
+  "name": "Hora_Curta",
+  "dataType": "string",
+  "sourceColumn": "Hora_Curta",
+  "lineageTag": "e4e9dd89-822b-4555-873e-839796cc09a0",
+  "sourceLineageTag": "Hora_Curta",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

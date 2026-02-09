@@ -1,0 +1,11 @@
+{
+  "name": "Pedidos - App",
+  "description": "Pedidos via app",
+  "expression": [
+    "",
+    "CALCULATE ( [Pedidos], dDispositivos[device_id] = 3 )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "2e266327-b5a7-4564-b30a-a6baec9d9d6e"
+}

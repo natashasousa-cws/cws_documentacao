@@ -1,0 +1,14 @@
+{
+  "name": "wpp_phone",
+  "dataType": "string",
+  "sourceColumn": "wpp_phone",
+  "lineageTag": "29f65208-7ba8-4e10-829d-44240471b32b",
+  "sourceLineageTag": "wpp_phone",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

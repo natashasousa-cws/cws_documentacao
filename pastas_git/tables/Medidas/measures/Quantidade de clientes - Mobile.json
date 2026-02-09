@@ -1,0 +1,14 @@
+{
+  "name": "Quantidade de clientes - Mobile",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de clientes com pedidos],",
+    "    FILTER(dClientes,",
+    "    [Pedidos faturados - Mobile])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Clientes",
+  "lineageTag": "7ffcc6e6-0272-4ad5-be7e-e82e7db89573"
+}

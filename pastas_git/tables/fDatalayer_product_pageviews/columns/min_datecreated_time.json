@@ -1,0 +1,14 @@
+{
+  "name": "min_datecreated_time",
+  "dataType": "string",
+  "sourceColumn": "min_datecreated_time",
+  "lineageTag": "decf4962-0abf-4f07-8c75-9344dc112907",
+  "sourceLineageTag": "min_datecreated_time",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

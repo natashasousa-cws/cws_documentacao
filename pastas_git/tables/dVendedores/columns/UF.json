@@ -1,0 +1,14 @@
+{
+  "name": "UF",
+  "dataType": "string",
+  "sourceColumn": "UF",
+  "lineageTag": "fb961866-169b-4bc3-9bbd-9c525bbb4526",
+  "sourceLineageTag": "UF",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Cupons com pedido",
+  "expression": [
+    "",
+    "DISTINCTCOUNT(",
+    "    fVendas[coupon_id]",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Cupons",
+  "lineageTag": "84903f1e-d676-4ba6-a29a-48982e6675b1"
+}

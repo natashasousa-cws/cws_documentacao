@@ -1,0 +1,16 @@
+{
+  "name": "GMV - Desktop",
+  "expression": [
+    "",
+    "CALCULATE ( [GMV], dDispositivos[device_id] = 1 )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\GMV",
+  "lineageTag": "4972d193-94da-4dc5-b479-e9799543729b",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

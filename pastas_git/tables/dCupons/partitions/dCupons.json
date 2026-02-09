@@ -1,0 +1,10 @@
+{
+  "name": "dCupons",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dCupons",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

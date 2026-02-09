@@ -1,0 +1,21 @@
+{
+  "name": "Sessao_agg - ultima sessao",
+  "expression": [
+    "",
+    "VAR AnoMesDia = MAX(fDatalayer_session_summary[datekey]) -- exemplo: 20250703",
+    "VAR Ano = INT(AnoMesDia / 10000)",
+    "VAR Mes = INT(MOD(AnoMesDia, 10000) / 100)",
+    "VAR Dia = MOD(AnoMesDia, 100)",
+    "RETURN",
+    "    DATE(Ano, Mes, Dia)"
+  ],
+  "formatString": "dd/mm/yyyy",
+  "displayFolder": "Sessao_agg",
+  "lineageTag": "17475489-f268-4790-b320-07273bb8b7fb",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    }
+  ]
+}

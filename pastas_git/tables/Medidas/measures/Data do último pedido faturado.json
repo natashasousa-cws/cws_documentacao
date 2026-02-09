@@ -1,0 +1,13 @@
+{
+  "name": "Data do último pedido faturado",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    MAX(dCalendario[Data]),",
+    "    KEEPFILTERS(fVendas),",
+    "    fVendas[order_status_id] > 4",
+    ")"
+  ],
+  "formatString": "General Date",
+  "lineageTag": "8f96f5d3-6c8c-4b54-ba6d-5f412dd9cd48"
+}

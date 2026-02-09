@@ -1,0 +1,14 @@
+{
+  "name": "order_type",
+  "dataType": "string",
+  "sourceColumn": "order_type",
+  "lineageTag": "889beb1c-afa9-4e37-a234-bd991c480977",
+  "sourceLineageTag": "order_type",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

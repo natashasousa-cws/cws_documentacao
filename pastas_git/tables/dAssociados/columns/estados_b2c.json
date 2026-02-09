@@ -1,0 +1,14 @@
+{
+  "name": "estados_b2c",
+  "dataType": "string",
+  "sourceColumn": "estados_b2c",
+  "lineageTag": "fc498b95-9c38-4524-a191-9b69e61e1268",
+  "sourceLineageTag": "estados_b2c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

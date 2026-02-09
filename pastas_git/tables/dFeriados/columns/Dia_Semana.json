@@ -1,0 +1,14 @@
+{
+  "name": "Dia_Semana",
+  "dataType": "string",
+  "sourceColumn": "Dia_Semana",
+  "lineageTag": "cb96592a-d450-4dd0-b6cc-604b2988610b",
+  "sourceLineageTag": "Dia_Semana",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

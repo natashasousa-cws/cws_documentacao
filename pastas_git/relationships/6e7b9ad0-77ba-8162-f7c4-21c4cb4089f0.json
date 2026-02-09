@@ -1,0 +1,7 @@
+{
+  "name": "6e7b9ad0-77ba-8162-f7c4-21c4cb4089f0",
+  "fromTable": "fLogins",
+  "fromColumn": "document",
+  "toTable": "dClientes",
+  "toColumn": "document"
+}

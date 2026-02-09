@@ -1,0 +1,19 @@
+{
+  "name": "Menor Preço SKU",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    MIN(dOfertas[unit_price]),",
+    "    ALLEXCEPT(dOfertas, dOfertas[sku_id])",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ofertas",
+  "lineageTag": "d8a3c5fe-2879-423f-bd57-53814dd93772",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

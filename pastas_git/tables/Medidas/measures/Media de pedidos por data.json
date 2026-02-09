@@ -1,0 +1,18 @@
+{
+  "name": "Media de pedidos por data",
+  "expression": [
+    "",
+    "FORMAT(",
+    "    AVERAGEX(",
+    "        ADDCOLUMNS(",
+    "            VALUES(dCalendario[Data]),",
+    "            \"Pedidos\", [Pedidos]",
+    "        ),",
+    "        [Pedidos]",
+    "    ),",
+    "    \"#,#\" & \" média diária\"",
+    ")"
+  ],
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "a7040067-1d44-4bf2-8931-04d7df9e3d3e"
+}

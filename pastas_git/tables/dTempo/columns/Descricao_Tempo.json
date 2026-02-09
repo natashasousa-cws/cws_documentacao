@@ -1,0 +1,14 @@
+{
+  "name": "Descricao_Tempo",
+  "dataType": "string",
+  "sourceColumn": "Descricao_Tempo",
+  "lineageTag": "9a37870c-8164-4ca4-a0ca-716cd55420da",
+  "sourceLineageTag": "Descricao_Tempo",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

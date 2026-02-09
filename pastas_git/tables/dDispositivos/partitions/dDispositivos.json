@@ -1,0 +1,10 @@
+{
+  "name": "dDispositivos",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dDispositivos",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

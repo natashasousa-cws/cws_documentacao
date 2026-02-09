@@ -1,0 +1,16 @@
+{
+  "name": "Faturamento digital sem imposto - Desktop",
+  "expression": [
+    "",
+    "CALCULATE ( [Faturamento digital sem imposto], dDispositivos[device_id] = 1 )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\Faturado sem imposto",
+  "lineageTag": "df26eeeb-6032-478a-827d-c89380e5fd1f",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

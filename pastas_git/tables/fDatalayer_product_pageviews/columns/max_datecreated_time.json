@@ -1,0 +1,14 @@
+{
+  "name": "max_datecreated_time",
+  "dataType": "string",
+  "sourceColumn": "max_datecreated_time",
+  "lineageTag": "6591cef7-c038-48a0-87b9-b6a2fb495a85",
+  "sourceLineageTag": "max_datecreated_time",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

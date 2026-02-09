@@ -1,0 +1,15 @@
+{
+  "name": "Mês_Completo",
+  "dataType": "boolean",
+  "sourceColumn": "Mês_Completo",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "ecc347c1-8a6f-4024-a738-33f13ddc1aa3",
+  "sourceLineageTag": "Mês_Completo",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

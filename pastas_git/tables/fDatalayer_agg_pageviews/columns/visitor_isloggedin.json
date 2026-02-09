@@ -1,0 +1,15 @@
+{
+  "name": "visitor_isloggedin",
+  "dataType": "boolean",
+  "sourceColumn": "visitor_isloggedin",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "d5ed5683-d67b-47d0-8ef1-7670b06990f6",
+  "sourceLineageTag": "visitor_isloggedin",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

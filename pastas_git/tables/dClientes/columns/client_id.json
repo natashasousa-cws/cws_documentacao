@@ -1,0 +1,15 @@
+{
+  "name": "client_id",
+  "dataType": "int64",
+  "sourceColumn": "client_id",
+  "formatString": "0",
+  "lineageTag": "08b05b56-2882-4b8d-8c63-aee38cc41fc6",
+  "sourceLineageTag": "client_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

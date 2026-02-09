@@ -1,0 +1,17 @@
+{
+  "name": "Frequencia de pedidos - dia útil",
+  "expression": [
+    "",
+    "VAR dtmin =",
+    "    CALCULATE (",
+    "        CONVERT ( MIN ( fVendas[datekey] ), DATETIME )",
+    "    )",
+    "VAR ciclo =",
+    "    NETWORKDAYS ( dtmin, TODAY (), 1, VALUES ( dFeriados[Data] ) )",
+    "RETURN",
+    "    DIVIDE ( ciclo, [Pedidos] )"
+  ],
+  "formatString": "#,0.0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "b6ddc0dd-482c-4b1a-a2e9-aa64ac3811f3"
+}

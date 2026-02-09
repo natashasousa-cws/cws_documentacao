@@ -1,0 +1,18 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "param_Vend_Y Pedido",
+  "dataType": "int64",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value3]",
+  "formatString": "0",
+  "lineageTag": "ac3a5957-42df-47c8-b3d7-18a3361581ec",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

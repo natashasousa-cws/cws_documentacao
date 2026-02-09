@@ -1,0 +1,14 @@
+{
+  "name": "Clients sem pedidos",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de clientes],",
+    "    FILTER(dClientes,",
+    "    NOT([Pedidos]))",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Clientes",
+  "lineageTag": "f1320849-d717-4aef-8758-8ce1a01adfaa"
+}

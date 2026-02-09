@@ -1,0 +1,21 @@
+{
+  "name": "Ticket Médio faturado - Desktop",
+  "expression": [
+    "",
+    "DIVIDE ( [Faturamento digital - Desktop], [Pedidos faturados - Desktop] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ticket Médio\\Faturado com imposto",
+  "lineageTag": "876dee3d-ebe5-475a-8970-b8c0ab73b7eb",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

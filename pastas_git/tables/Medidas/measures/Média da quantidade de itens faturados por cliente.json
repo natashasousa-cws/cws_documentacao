@@ -1,0 +1,13 @@
+{
+  "name": "Média da quantidade de itens faturados por cliente",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    AVERAGEX ( VALUES ( fVendas[client_account_id] ), SUM ( fVendas[quantity] ) ),",
+    "    dStatus_pedido[order_status_id] > 4",
+    ")"
+  ],
+  "formatString": "#,0.0",
+  "displayFolder": "Produtos\\Faturado",
+  "lineageTag": "fcfb33cc-2d04-487a-945e-a909e178800d"
+}

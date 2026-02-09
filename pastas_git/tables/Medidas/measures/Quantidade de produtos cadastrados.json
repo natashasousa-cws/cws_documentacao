@@ -1,0 +1,7 @@
+{
+  "name": "Quantidade de produtos cadastrados",
+  "expression": "DISTINCTCOUNT(dProdutos[sku_id])",
+  "formatString": "#,0",
+  "displayFolder": "Produtos\\Geral",
+  "lineageTag": "1d8393b5-c810-4c6d-af08-14ea1417a0ee"
+}

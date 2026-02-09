@@ -1,0 +1,14 @@
+{
+  "name": "user_type",
+  "dataType": "string",
+  "sourceColumn": "user_type",
+  "lineageTag": "e1f3d6a3-5e34-4cfc-9237-152380886229",
+  "sourceLineageTag": "user_type",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

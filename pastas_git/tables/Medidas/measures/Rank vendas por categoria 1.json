@@ -1,0 +1,19 @@
+{
+  "name": "Rank vendas por categoria 1",
+  "expression": [
+    "",
+    "RANKX(",
+    "    ALLSELECTED(dProdutos[category_level_1]),",
+    "    CALCULATE(",
+    "        SUMX(fVendas,",
+    "            (fVendas[quantity] * fVendas[amount_charged]) + fVendas[median_charged_shipping] + fVendas[avg_credit_card_interest] + fVendas[avg_total_tax]",
+    "        )",
+    "    ),,",
+    "    DESC,",
+    "    Dense",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Produtos\\Categoria",
+  "lineageTag": "5695b17e-3b60-4472-a773-71e327880090"
+}

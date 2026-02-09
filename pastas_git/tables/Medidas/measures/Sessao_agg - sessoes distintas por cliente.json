@@ -1,0 +1,16 @@
+{
+  "name": "Sessao_agg - sessoes distintas por cliente",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DIVIDE(",
+    "        [Sessao_agg - sessoes distintas de clientes logados],",
+    "        [Sessao_agg - clientes distintos],",
+    "        0",
+    "    )",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Sessao_agg",
+  "lineageTag": "3cb7355d-249e-4a79-a082-d610ed9ad467"
+}

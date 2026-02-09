@@ -1,0 +1,15 @@
+{
+  "name": "DiaÚtil",
+  "dataType": "boolean",
+  "sourceColumn": "DiaÚtil",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "381602d8-323b-4927-9034-9141ca858ed9",
+  "sourceLineageTag": "DiaÚtil",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

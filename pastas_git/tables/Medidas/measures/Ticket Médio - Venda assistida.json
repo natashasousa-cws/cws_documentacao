@@ -1,0 +1,22 @@
+{
+  "name": "Ticket Médio - Venda assistida",
+  "description": "Ticket médio dos pedidos de venda assistida",
+  "expression": [
+    "",
+    "DIVIDE ( [GMV - Venda assistida], [Pedidos - Venda assistida] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Ticket Médio\\GMV",
+  "lineageTag": "de069327-c37a-4399-9993-c45be8f0a372",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

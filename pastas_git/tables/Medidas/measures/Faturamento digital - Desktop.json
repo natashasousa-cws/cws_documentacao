@@ -1,0 +1,16 @@
+{
+  "name": "Faturamento digital - Desktop",
+  "expression": [
+    "",
+    "CALCULATE ( [Faturamento digital], dDispositivos[device_id] = 1 )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\Faturado com imposto",
+  "lineageTag": "175690b4-abdf-42cc-9118-ca229f1e730f",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

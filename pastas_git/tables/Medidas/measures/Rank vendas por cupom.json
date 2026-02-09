@@ -1,0 +1,19 @@
+{
+  "name": "Rank vendas por cupom",
+  "expression": [
+    "",
+    "RANKX(",
+    "    ALLSELECTED(dCupons[campaign]),",
+    "    CALCULATE(",
+    "        SUMX(fVendas,",
+    "            (fVendas[quantity] * fVendas[amount_charged]) + fVendas[median_charged_shipping] + fVendas[avg_credit_card_interest] + fVendas[avg_total_tax]",
+    "        )",
+    "    ),,",
+    "    DESC,",
+    "    Dense",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Cupons",
+  "lineageTag": "67984521-2d21-4910-984d-ba64cdd8438c"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Parâm_prod_y Pedido",
+  "dataType": "int64",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value3]",
+  "formatString": "0",
+  "lineageTag": "4396bf2c-4714-4f5c-b24d-d702b4aed993",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

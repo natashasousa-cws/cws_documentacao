@@ -1,0 +1,8 @@
+{
+  "name": "8da56d60-0395-cf8d-c507-0fc7654040fd",
+  "fromTable": "dClientes",
+  "fromColumn": "salesperson_account_id",
+  "toTable": "dVendedores",
+  "toColumn": "account_id",
+  "isActive": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "discount_value",
+  "dataType": "decimal",
+  "sourceColumn": "discount_value",
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "lineageTag": "81af93e5-91f4-456a-975d-06c5fc90d393",
+  "sourceLineageTag": "discount_value",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

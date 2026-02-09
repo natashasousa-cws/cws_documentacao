@@ -1,0 +1,18 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Param_Y_Home Pedido",
+  "dataType": "int64",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value3]",
+  "formatString": "0",
+  "lineageTag": "d55985e2-bf3d-4581-86b7-5d3438d7258f",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

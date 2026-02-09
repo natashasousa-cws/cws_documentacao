@@ -1,0 +1,20 @@
+{
+  "name": "Mês",
+  "dataType": "string",
+  "sourceColumn": "Mês",
+  "sortByColumn": "AnoMes",
+  "lineageTag": "e402439d-4b2a-4195-9a6c-665ecc1fc875",
+  "sourceLineageTag": "Mês",
+  "summarizeBy": "none",
+  "changedProperties": [
+    {
+      "property": "SortByColumn"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

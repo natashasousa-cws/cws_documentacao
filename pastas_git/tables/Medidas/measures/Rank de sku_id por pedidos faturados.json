@@ -1,0 +1,10 @@
+{
+  "name": "Rank de sku_id por pedidos faturados",
+  "expression": [
+    "",
+    "RANKX ( ALL ( fVendas[sku_id] ), [Pedidos faturados],, DESC )"
+  ],
+  "formatString": "0",
+  "displayFolder": "Produtos\\Faturado",
+  "lineageTag": "3f64392f-3282-40a0-8e0d-ba2edc1c038c"
+}

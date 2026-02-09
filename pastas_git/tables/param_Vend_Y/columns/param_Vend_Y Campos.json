@@ -1,0 +1,28 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "param_Vend_Y Campos",
+  "dataType": "string",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value2]",
+  "sortByColumn": "param_Vend_Y Pedido",
+  "lineageTag": "4f011f76-bdd8-4213-84ba-454cc1165b82",
+  "summarizeBy": "none",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "ParameterMetadata",
+      "value": {
+        "version": 3,
+        "kind": 2
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

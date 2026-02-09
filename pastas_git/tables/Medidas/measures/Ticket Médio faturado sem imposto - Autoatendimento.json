@@ -1,0 +1,25 @@
+{
+  "name": "Ticket Médio faturado sem imposto - Autoatendimento",
+  "description": "Ticket médio dos pedidos em auto atendimento",
+  "expression": [
+    "",
+    "DIVIDE (",
+    "    [Faturamento digital sem imposto - Autoatendimento],",
+    "    [Pedidos faturados - Autoatendimento]",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ticket Médio\\Faturado sem imposto",
+  "lineageTag": "26823f0d-163b-4d94-9146-877763c6a186",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

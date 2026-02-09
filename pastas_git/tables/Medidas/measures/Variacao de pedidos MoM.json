@@ -1,0 +1,15 @@
+{
+  "name": "Variacao de pedidos MoM",
+  "expression": [
+    "",
+    "VAR ValorAtual = [Pedidos]",
+    "VAR ValorAnterior = [Pedidos MoM]",
+    "VAR Variacao = ValorAtual - ValorAnterior",
+    "",
+    "RETURN",
+    "DIVIDE(Variacao, ValorAnterior)"
+  ],
+  "formatString": "0%;-0%;0%",
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "ebd0fba8-b6cc-4064-9b1a-7e3917669399"
+}

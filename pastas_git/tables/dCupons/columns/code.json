@@ -1,0 +1,15 @@
+{
+  "name": "code",
+  "dataType": "int64",
+  "sourceColumn": "code",
+  "formatString": "0",
+  "lineageTag": "625d380a-2519-4c87-a72f-774d13339cd7",
+  "sourceLineageTag": "code",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

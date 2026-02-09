@@ -1,0 +1,16 @@
+{
+  "name": "Vendedores com pedidos",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Vendedores cadastrados],",
+    "    FILTER(",
+    "        fVendas,",
+    "        [Pedidos] > 0",
+    "    )",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Vendedores",
+  "lineageTag": "c2791e6b-647f-4bd8-b01d-c46ab7dfb994"
+}

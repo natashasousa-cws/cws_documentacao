@@ -1,0 +1,14 @@
+{
+  "name": "Quantidade de clientes - Desktop",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de clientes com pedidos],",
+    "    FILTER(dClientes,",
+    "    [Pedidos faturados - Desktop])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Clientes",
+  "lineageTag": "a1c4bef7-814c-43ab-b235-d99aac507cf6"
+}

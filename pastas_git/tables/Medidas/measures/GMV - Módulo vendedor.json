@@ -1,0 +1,16 @@
+{
+  "name": "GMV - Módulo vendedor",
+  "expression": [
+    "",
+    "CALCULATE ( [GMV], dTipo_pedido[order_type_id] = 2 )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\GMV",
+  "lineageTag": "f6b13c35-ecf4-4043-9aaa-7d9e2f383e89",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

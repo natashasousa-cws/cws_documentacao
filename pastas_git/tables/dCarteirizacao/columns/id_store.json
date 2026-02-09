@@ -1,0 +1,15 @@
+{
+  "name": "id_store",
+  "dataType": "int64",
+  "sourceColumn": "id_store",
+  "formatString": "0",
+  "lineageTag": "78476170-ec57-4eac-9481-8efb48cc84a8",
+  "sourceLineageTag": "id_store",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

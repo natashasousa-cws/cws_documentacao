@@ -1,0 +1,7 @@
+{
+  "name": "4d6d9c1b-60d4-c499-5aa3-c97a9a27c913",
+  "fromTable": "fDatalayer_session_summary",
+  "fromColumn": "account_id",
+  "toTable": "dClientes",
+  "toColumn": "account_id"
+}

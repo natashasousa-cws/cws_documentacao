@@ -1,0 +1,15 @@
+{
+  "name": "vendor_id",
+  "dataType": "int64",
+  "sourceColumn": "vendor_id",
+  "formatString": "0",
+  "lineageTag": "8a0b7813-e298-46a0-b18b-e2f50a73b245",
+  "sourceLineageTag": "vendor_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

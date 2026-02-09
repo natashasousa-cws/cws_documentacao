@@ -1,0 +1,15 @@
+{
+  "name": "Ordem",
+  "dataType": "int64",
+  "sourceColumn": "Ordem",
+  "formatString": "0",
+  "lineageTag": "979679dd-7746-4bf6-bbba-b80f06c7a962",
+  "sourceLineageTag": "Ordem",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

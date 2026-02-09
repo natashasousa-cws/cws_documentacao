@@ -1,0 +1,14 @@
+{
+  "name": "payment_method",
+  "dataType": "string",
+  "sourceColumn": "payment_method",
+  "lineageTag": "4089a8b6-3e16-4645-b4c0-d2dfa793522e",
+  "sourceLineageTag": "payment_method",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

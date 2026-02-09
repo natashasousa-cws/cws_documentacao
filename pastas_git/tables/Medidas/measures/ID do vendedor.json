@@ -1,0 +1,9 @@
+{
+  "name": "ID do vendedor",
+  "expression": [
+    "CALCULATE(",
+    "    max(dClientes[salesperson_account_id]))"
+  ],
+  "formatString": "0",
+  "lineageTag": "eeee132e-4986-490f-844a-4a91ddc55332"
+}

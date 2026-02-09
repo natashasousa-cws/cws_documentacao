@@ -1,0 +1,10 @@
+{
+  "name": "dPeriodos",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dPeriodos",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

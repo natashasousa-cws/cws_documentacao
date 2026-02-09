@@ -1,0 +1,14 @@
+{
+  "name": "profile_picture",
+  "dataType": "string",
+  "sourceColumn": "profile_picture",
+  "lineageTag": "8cf75dad-6d55-4697-8c93-586530c0b850",
+  "sourceLineageTag": "profile_picture",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

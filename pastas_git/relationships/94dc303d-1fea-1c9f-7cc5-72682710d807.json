@@ -1,0 +1,7 @@
+{
+  "name": "94dc303d-1fea-1c9f-7cc5-72682710d807",
+  "fromTable": "fCarrinhos_abandonados",
+  "fromColumn": "datekey",
+  "toTable": "dCalendario",
+  "toColumn": "datekey"
+}

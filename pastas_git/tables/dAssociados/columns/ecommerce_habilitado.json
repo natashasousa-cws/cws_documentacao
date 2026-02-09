@@ -1,0 +1,14 @@
+{
+  "name": "ecommerce_habilitado",
+  "dataType": "string",
+  "sourceColumn": "ecommerce_habilitado",
+  "lineageTag": "b106c018-c4cc-420f-951b-5548ae91ed9a",
+  "sourceLineageTag": "ecommerce_habilitado",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

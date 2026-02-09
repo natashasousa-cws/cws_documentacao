@@ -1,0 +1,26 @@
+{
+  "name": "Session do último carrinho (Cliente Navegando)",
+  "expression": [
+    "",
+    "VAR UltDt =",
+    "    CALCULATE (",
+    "        MAX ( fCarrinhos_abandonados[date_created] ),",
+    "        KEEPFILTERS ( fDatalayer_session_summary[user_type] = \"Cliente Navegando\" )",
+    "    )",
+    "RETURN",
+    "IF (",
+    "    ISBLANK ( UltDt ),",
+    "    BLANK (),",
+    "    CALCULATE (",
+    "        MAX ( fCarrinhos_abandonados[session_id] ),",
+    "        KEEPFILTERS ( fDatalayer_session_summary[user_type] = \"Cliente Navegando\" ),",
+    "        FILTER (",
+    "            ALL ( fCarrinhos_abandonados ),",
+    "            fCarrinhos_abandonados[client_account_id] = SELECTEDVALUE ( dClientes[account_id] )",
+    "                && fCarrinhos_abandonados[date_created] = UltDt",
+    "        )",
+    "    )",
+    ")"
+  ],
+  "lineageTag": "2d04ece0-096e-46bc-8831-a73a1ef85881"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Trimestre_Fiscal",
+  "dataType": "string",
+  "sourceColumn": "Trimestre_Fiscal",
+  "lineageTag": "a094b411-c6ce-4e7d-8daf-5b33018c8270",
+  "sourceLineageTag": "Trimestre_Fiscal",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

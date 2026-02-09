@@ -1,0 +1,24 @@
+{
+  "name": "amount_charged",
+  "dataType": "decimal",
+  "sourceColumn": "amount_charged",
+  "formatString": "\"R$\"\\ #,0;-\"R$\"\\ #,0;\"R$\"\\ #,0",
+  "lineageTag": "566feab5-84f1-48c6-a531-278ace4b1a3e",
+  "sourceLineageTag": "amount_charged",
+  "summarizeBy": "sum",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

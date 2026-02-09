@@ -1,0 +1,15 @@
+{
+  "name": "days_since_last_purchase",
+  "dataType": "int64",
+  "sourceColumn": "days_since_last_purchase",
+  "formatString": "0",
+  "lineageTag": "4710132e-4237-47b6-811d-8da987cfe613",
+  "sourceLineageTag": "days_since_last_purchase",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

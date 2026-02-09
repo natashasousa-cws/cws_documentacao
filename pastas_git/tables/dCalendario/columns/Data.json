@@ -1,0 +1,24 @@
+{
+  "name": "Data",
+  "dataType": "dateTime",
+  "sourceColumn": "Data",
+  "formatString": "Short Date",
+  "sortByColumn": "AnoMesDia",
+  "lineageTag": "759139e4-274a-40eb-8f5d-72f914b4d099",
+  "sourceLineageTag": "Data",
+  "summarizeBy": "none",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    },
+    {
+      "property": "SortByColumn"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

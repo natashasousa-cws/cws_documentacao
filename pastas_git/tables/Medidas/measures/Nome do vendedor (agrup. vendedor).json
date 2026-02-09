@@ -1,0 +1,8 @@
+{
+  "name": "Nome do vendedor (agrup. vendedor)",
+  "expression": [
+    "CALCULATE(",
+    "    max(dVendedores[name]))"
+  ],
+  "lineageTag": "5c25359e-4b0c-46f0-9ee4-82bf5143532d"
+}

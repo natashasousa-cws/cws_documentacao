@@ -1,0 +1,14 @@
+{
+  "name": "Mês/Ano_Fechamento",
+  "dataType": "string",
+  "sourceColumn": "Mês/Ano_Fechamento",
+  "lineageTag": "76e33fdf-b9bb-4d16-b72a-e89827da2462",
+  "sourceLineageTag": "Mês/Ano_Fechamento",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

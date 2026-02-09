@@ -1,0 +1,15 @@
+{
+  "name": "site_id",
+  "dataType": "int64",
+  "sourceColumn": "site_id",
+  "formatString": "0",
+  "lineageTag": "5225d562-df4b-4b37-919e-99cf0643e2e3",
+  "sourceLineageTag": "site_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

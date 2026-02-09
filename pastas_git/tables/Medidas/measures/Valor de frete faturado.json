@@ -1,0 +1,30 @@
+{
+  "name": "Valor de frete faturado",
+  "description": "Valor de frete",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    AVERAGEX (",
+    "        VALUES ( fVendas[partner_order_id] ),",
+    "        CALCULATE (",
+    "            SUM ( fVendas[median_charged_shipping] ),",
+    "            dStatus_pedido[order_status_id] > 4",
+    "        )",
+    "    )",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Pedidos\\Faturado",
+  "lineageTag": "2eeb87c7-4222-43ac-abed-e652539611f8",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

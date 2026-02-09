@@ -1,0 +1,13 @@
+{
+  "name": "pedidos potencial",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(fVendas[partner_order_id]),",
+    "    ALL(fVendas[order_status_id])",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "8af4eaa9-552f-4b9e-b430-ca76750b17dc"
+}

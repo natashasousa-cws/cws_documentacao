@@ -1,0 +1,16 @@
+{
+  "name": "Faturamento digital - Módulo vendedor",
+  "expression": [
+    "",
+    "CALCULATE ( [Faturamento digital], dTipo_pedido[order_type_id] = 2 )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\Faturado com imposto",
+  "lineageTag": "0d8f3bc6-a9fa-47d4-a0cd-67d3691543ae",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

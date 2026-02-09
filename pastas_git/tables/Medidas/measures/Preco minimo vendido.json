@@ -1,0 +1,19 @@
+{
+  "name": "Preco minimo vendido",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    MIN(fVendas[amount_charged]),",
+    "    ALLEXCEPT(fVendas,fVendas[sku_id],dAssociados[trading_name])",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Produtos\\Geral",
+  "lineageTag": "189cd3e4-9124-40fa-ba83-661b8d1cc1bc",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

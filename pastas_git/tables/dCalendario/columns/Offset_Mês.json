@@ -1,0 +1,15 @@
+{
+  "name": "Offset_Mês",
+  "dataType": "int64",
+  "sourceColumn": "Offset_Mês",
+  "formatString": "0",
+  "lineageTag": "97bde139-caa0-4c24-8a48-7089351695ab",
+  "sourceLineageTag": "Offset_Mês",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

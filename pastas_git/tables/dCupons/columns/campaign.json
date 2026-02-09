@@ -1,0 +1,14 @@
+{
+  "name": "campaign",
+  "dataType": "string",
+  "sourceColumn": "campaign",
+  "lineageTag": "4ad89901-7665-4858-b2e3-0f7ff4d7c502",
+  "sourceLineageTag": "campaign",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

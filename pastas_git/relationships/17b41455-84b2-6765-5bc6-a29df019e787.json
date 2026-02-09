@@ -1,0 +1,8 @@
+{
+  "name": "17b41455-84b2-6765-5bc6-a29df019e787",
+  "fromTable": "dClientes",
+  "fromColumn": "salesperson_document",
+  "toTable": "dVendedores",
+  "toColumn": "document",
+  "isActive": false
+}

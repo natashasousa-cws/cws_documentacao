@@ -1,0 +1,23 @@
+{
+  "name": "Lista SKUs lançados nos últimos 7 dias",
+  "expression": [
+    "",
+    "CONCATENATEX(",
+    "    CALCULATETABLE(",
+    "        dOfertas,",
+    "        dOfertas[sku_created_date] > TODAY() - 7",
+    "    ),",
+    "    -- Conteúdo de cada linha",
+    "    \"Produto: \" & dOfertas[sku_name] & ",
+    "    \" | Qtd: \" & dOfertas[quantity_avaliable] & ",
+    "    \" | Preço: \" & FORMAT(dOfertas[unit_price], \"Currency\"), ",
+    "    ",
+    "    -- Delimitador (Quebra de linha dupla)",
+    "    UNICHAR(10) & UNICHAR(10),",
+    "    ",
+    "    -- Ordenação (Opcional: por nome do SKU)",
+    "    dOfertas[sku_name], ASC",
+    ")"
+  ],
+  "lineageTag": "c4390eb2-3512-4866-8ca6-d28c6abf0b37"
+}

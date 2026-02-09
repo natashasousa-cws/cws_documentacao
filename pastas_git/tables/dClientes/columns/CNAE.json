@@ -1,0 +1,14 @@
+{
+  "name": "CNAE",
+  "dataType": "string",
+  "sourceColumn": "CNAE",
+  "lineageTag": "23f32946-9baf-4651-8df4-b8c7c955cf10",
+  "sourceLineageTag": "CNAE",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

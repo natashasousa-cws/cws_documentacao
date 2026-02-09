@@ -1,0 +1,10 @@
+{
+  "name": "dStatus_pedido",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dStatus_pedido",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

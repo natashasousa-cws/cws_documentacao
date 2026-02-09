@@ -1,0 +1,12 @@
+{
+  "name": "Quantidade de carrinhos abandonados",
+  "expression": [
+    "",
+    "DISTINCTCOUNT(",
+    "    fCarrinhos_abandonados[session_id]",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Carrinhos abandonados",
+  "lineageTag": "bb968257-7f6b-4f16-ae6f-fd07e39e8a85"
+}

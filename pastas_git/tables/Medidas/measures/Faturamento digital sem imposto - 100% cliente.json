@@ -1,0 +1,16 @@
+{
+  "name": "Faturamento digital sem imposto - 100% cliente",
+  "expression": [
+    "",
+    "CALCULATE ( [Faturamento digital sem imposto], dTipo_pedido[order_type_id] = 3 )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\Faturado sem imposto",
+  "lineageTag": "c3517aa6-6ad6-4edb-a99b-e641d3ab461a",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

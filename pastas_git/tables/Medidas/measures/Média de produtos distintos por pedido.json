@@ -1,0 +1,13 @@
+{
+  "name": "Média de produtos distintos por pedido",
+  "expression": [
+    "",
+    "AVERAGEX (",
+    "    VALUES ( fVendas[partner_order_id] ),",
+    "    [Quantidade de produtos distintos vendidos]",
+    ")"
+  ],
+  "formatString": "#,0.0",
+  "displayFolder": "Produtos\\Geral",
+  "lineageTag": "25599176-27ae-4e37-9048-733b503c83ee"
+}

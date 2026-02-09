@@ -1,0 +1,15 @@
+{
+  "name": "wpp_opt_in",
+  "dataType": "int64",
+  "sourceColumn": "wpp_opt_in",
+  "formatString": "0",
+  "lineageTag": "78bafe6e-dac7-454d-b560-ff8b0574aa02",
+  "sourceLineageTag": "wpp_opt_in",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

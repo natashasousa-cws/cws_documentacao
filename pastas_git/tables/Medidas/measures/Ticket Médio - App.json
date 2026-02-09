@@ -1,0 +1,21 @@
+{
+  "name": "Ticket Médio - App",
+  "expression": [
+    "",
+    "DIVIDE ( [GMV - App], [Pedidos - App] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Ticket Médio\\GMV",
+  "lineageTag": "bbdd4eaf-1e19-4865-9d59-32cf0a3fd592",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Média da quantidade de itens faturados por pedido",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    AVERAGEX (",
+    "        VALUES ( fVendas[partner_order_id] ),",
+    "        CALCULATE (",
+    "            SUM ( fVendas[quantity] ),",
+    "            CROSSFILTER ( dProdutos[sku_id], fVendas[sku_id], BOTH ),",
+    "            dStatus_pedido[order_status_id] > 4",
+    "        )",
+    "    )",
+    ")"
+  ],
+  "formatString": "#,0.0",
+  "displayFolder": "Produtos\\Faturado",
+  "lineageTag": "bfe8f4f7-bcb6-4b7d-ad77-a2b776de09f7"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Vendas digitais - Carteira do vendedor",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Faturamento digital],",
+    "",
+    "    -- 1) ignora vendedor registrado na venda",
+    "    REMOVEFILTERS( fVendas[salesperson_account_id] ),",
+    "",
+    "    -- 2) DESLIGA o relacionamento indesejado (caminho alternativo)",
+    "    CROSSFILTER(",
+    "        dVendedores[client_id],",
+    "        fVendas[client_account_id],",
+    "        NONE",
+    "    ),",
+    "",
+    "    -- 3) aplica o vendedor do contexto como filtro de carteira em dClientes",
+    "    TREATAS(",
+    "        VALUES( dVendedores[account_id] ),",
+    "        dClientes[salesperson_account_id]",
+    "    )",
+    ")"
+  ],
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "lineageTag": "352b9a25-0f1e-4135-b314-9beebf7a6fa5",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "login_date",
+  "dataType": "dateTime",
+  "sourceColumn": "login_date",
+  "formatString": "General Date",
+  "lineageTag": "5e93fd37-70e8-4903-bf17-237d227beef1",
+  "sourceLineageTag": "login_date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Cupons",
+  "expression": "DISTINCTCOUNT(dCupons[coupon_id])",
+  "formatString": "#,0",
+  "displayFolder": "Cupons",
+  "lineageTag": "1cd226fe-5738-40f9-90f9-50fe2b94c21d"
+}

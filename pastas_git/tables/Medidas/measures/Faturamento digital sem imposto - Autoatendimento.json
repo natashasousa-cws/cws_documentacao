@@ -1,0 +1,20 @@
+{
+  "name": "Faturamento digital sem imposto - Autoatendimento",
+  "description": "GMV somando 100% cliente e venda assistida; GMV com participação do cliente",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    [Faturamento digital sem imposto],",
+    "    dTipo_pedido[order_type_id] IN { 1, 3 }",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\Faturado sem imposto",
+  "lineageTag": "036dc221-b510-44c0-8cd2-adf16dd87ba6",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

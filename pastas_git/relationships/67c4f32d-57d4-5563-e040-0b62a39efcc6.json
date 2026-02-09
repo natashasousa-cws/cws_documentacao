@@ -1,0 +1,7 @@
+{
+  "name": "67c4f32d-57d4-5563-e040-0b62a39efcc6",
+  "fromTable": "fVendas",
+  "fromColumn": "client_account_id",
+  "toTable": "dClientes",
+  "toColumn": "account_id"
+}

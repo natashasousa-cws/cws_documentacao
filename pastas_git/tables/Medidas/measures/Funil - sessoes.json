@@ -1,0 +1,12 @@
+{
+  "name": "Funil - sessoes",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    COUNT(fDatalayer_agg_pageviews[sessoes_distintas])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Datalayer - Funil",
+  "lineageTag": "a8015e12-6019-44af-80f5-1963fb19bd68"
+}

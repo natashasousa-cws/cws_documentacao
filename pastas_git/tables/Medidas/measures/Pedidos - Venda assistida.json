@@ -1,0 +1,11 @@
+{
+  "name": "Pedidos - Venda assistida",
+  "description": "Pedidos realizados com interação cliente-vendedor",
+  "expression": [
+    "",
+    "CALCULATE ( [Pedidos], dTipo_pedido[order_type_id] = 1 )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "212db723-9961-4102-8398-f7f9be70845b"
+}

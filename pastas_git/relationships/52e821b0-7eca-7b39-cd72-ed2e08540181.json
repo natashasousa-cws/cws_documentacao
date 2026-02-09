@@ -1,0 +1,7 @@
+{
+  "name": "52e821b0-7eca-7b39-cd72-ed2e08540181",
+  "fromTable": "fDatalayer_agg_pageviews",
+  "fromColumn": "account_id",
+  "toTable": "dClientes",
+  "toColumn": "account_id"
+}

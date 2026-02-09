@@ -1,0 +1,19 @@
+{
+  "name": "GMV - Produto linha-a-linha",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    SUMX(fVendas,",
+    "    fVendas[quantity] * fVendas[amount_charged])",
+    "    )"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Receita digital\\GMV",
+  "lineageTag": "e67e4387-9949-4aeb-a6ea-7877059ef005",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

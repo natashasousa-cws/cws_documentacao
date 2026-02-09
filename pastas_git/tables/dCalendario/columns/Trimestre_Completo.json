@@ -1,0 +1,15 @@
+{
+  "name": "Trimestre_Completo",
+  "dataType": "boolean",
+  "sourceColumn": "Trimestre_Completo",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "d60605cd-85bb-4768-9b64-4e8278b53943",
+  "sourceLineageTag": "Trimestre_Completo",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

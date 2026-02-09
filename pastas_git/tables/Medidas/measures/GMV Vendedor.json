@@ -1,0 +1,13 @@
+{
+  "name": "GMV Vendedor",
+  "expression": "[GMV - Módulo vendedor] + [GMV - Venda assistida]",
+  "formatString": "\"R$\"\\ #,0.###############;-\"R$\"\\ #,0.###############;\"R$\"\\ #,0.###############",
+  "displayFolder": "Receita digital\\GMV",
+  "lineageTag": "7fb12cd1-2df9-41f4-a6ad-8c8c283ee1c0",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Parâm_prod_y",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": [
+      "{",
+      "    (\"SKUs distintos\", NAMEOF('Medidas'[Quantidade de produtos distintos vendidos]), 0),",
+      "    (\"Categorias distintas\", NAMEOF('dProdutos'[category_level_1]), 1),",
+      "    (\"Quantidade de produtos distintos faturados\", NAMEOF('Medidas'[Quantidade de produtos distintos faturados]), 2),",
+      "    (\"Média de itens por pedido\", NAMEOF('Medidas'[Média da quantidade de itens por pedido]), 3)",
+      "}"
+    ]
+  }
+}

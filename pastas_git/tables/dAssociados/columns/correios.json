@@ -1,0 +1,14 @@
+{
+  "name": "correios",
+  "dataType": "string",
+  "sourceColumn": "correios",
+  "lineageTag": "df5017ef-abb8-4dca-9d40-db6c7d1b40d5",
+  "sourceLineageTag": "correios",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

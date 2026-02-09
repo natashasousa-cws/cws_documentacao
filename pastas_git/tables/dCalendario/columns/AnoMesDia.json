@@ -1,0 +1,15 @@
+{
+  "name": "AnoMesDia",
+  "dataType": "int64",
+  "sourceColumn": "AnoMesDia",
+  "formatString": "0",
+  "lineageTag": "db918d4e-5ab5-45ba-80a4-a6df3c0500b7",
+  "sourceLineageTag": "AnoMesDia",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

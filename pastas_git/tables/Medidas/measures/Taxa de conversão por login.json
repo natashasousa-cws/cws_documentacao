@@ -1,0 +1,16 @@
+{
+  "name": "Taxa de conversão por login",
+  "description": "Quantidade de logins para 1 pedido",
+  "expression": [
+    "",
+    "DIVIDE ( [Quantidade de login], [Total de pedidos] )"
+  ],
+  "formatString": "#,0%;-#,0%;#,0%",
+  "displayFolder": "Login",
+  "lineageTag": "b7cd3e96-f737-4130-a07f-4310bb239c46",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ]
+}

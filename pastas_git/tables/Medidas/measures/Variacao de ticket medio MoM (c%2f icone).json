@@ -1,0 +1,21 @@
+{
+  "name": "Variacao de ticket medio MoM (c/ icone)",
+  "expression": [
+    "",
+    "VAR Porcentagem = [Variacao de ticket medio MoM]",
+    "",
+    "VAR Icone =",
+    "    SWITCH(",
+    "        TRUE(),",
+    "        ISBLANK(Porcentagem), \"➖\",",
+    "        Porcentagem > 0, \"🡅\",",
+    "        Porcentagem < 0, \"🡇\",",
+    "        \"➖\"",
+    "    )",
+    "",
+    "RETURN",
+    "    Icone & \" \" & FORMAT(Porcentagem, \"#,##0%\")"
+  ],
+  "displayFolder": "Texto",
+  "lineageTag": "5aee1624-e7a5-4516-b6f8-978574695c0a"
+}

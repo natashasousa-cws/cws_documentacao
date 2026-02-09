@@ -1,0 +1,7 @@
+{
+  "name": "1049eaaa-bf09-273c-ff66-ffff75c8b993",
+  "fromTable": "fLogins",
+  "fromColumn": "account_id",
+  "toTable": "dVendedores",
+  "toColumn": "account_id"
+}

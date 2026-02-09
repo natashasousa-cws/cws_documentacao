@@ -1,0 +1,15 @@
+{
+  "name": "client_create_date",
+  "dataType": "dateTime",
+  "sourceColumn": "client_create_date",
+  "formatString": "General Date",
+  "lineageTag": "071358ca-092f-4eaf-ae89-4fb241cdd90c",
+  "sourceLineageTag": "client_create_date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

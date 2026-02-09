@@ -1,0 +1,21 @@
+{
+  "name": "Variacao de quantidade de clientes com pedidos MoM (c/ icone)",
+  "expression": [
+    "",
+    "VAR Porcentagem = [Variacao de quantidade de clientes com pedidos MoM]",
+    "",
+    "VAR Icone =",
+    "    SWITCH(",
+    "        TRUE(),",
+    "        ISBLANK(Porcentagem), \"➖\",",
+    "        Porcentagem > 0, \"🡅\",",
+    "        Porcentagem < 0, \"🡇\",",
+    "        \"➖\"",
+    "    )",
+    "",
+    "RETURN",
+    "    Icone & \" \" & FORMAT(Porcentagem, \"#,##0%\")"
+  ],
+  "displayFolder": "Texto",
+  "lineageTag": "3a416c44-84e0-439f-a16a-cc8e35d6c032"
+}

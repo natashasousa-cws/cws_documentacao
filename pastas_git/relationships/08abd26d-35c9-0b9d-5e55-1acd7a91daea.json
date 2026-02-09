@@ -1,0 +1,7 @@
+{
+  "name": "08abd26d-35c9-0b9d-5e55-1acd7a91daea",
+  "fromTable": "fVendas",
+  "fromColumn": "shipping_type_id",
+  "toTable": "dTipo_envio",
+  "toColumn": "shipping_type_id"
+}

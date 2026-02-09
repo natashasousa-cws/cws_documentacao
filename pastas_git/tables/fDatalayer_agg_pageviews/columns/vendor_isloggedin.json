@@ -1,0 +1,15 @@
+{
+  "name": "vendor_isloggedin",
+  "dataType": "boolean",
+  "sourceColumn": "vendor_isloggedin",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "16adff1b-c964-4de8-bac0-ca2c97d8eb8f",
+  "sourceLineageTag": "vendor_isloggedin",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

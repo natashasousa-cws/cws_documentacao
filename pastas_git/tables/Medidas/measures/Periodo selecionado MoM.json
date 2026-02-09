@@ -1,0 +1,26 @@
+{
+  "name": "Periodo selecionado MoM",
+  "expression": [
+    "",
+    "VAR DataMin = ",
+    "    FORMAT(MIN(dCalendario[Data]), \"MMM yy\")",
+    "",
+    "VAR DataMax = ",
+    "    FORMAT(MAX(dCalendario[Data]), \"MMM yy\")",
+    "",
+    "VAR DataMinMoM =",
+    "    FORMAT(EDATE(DataMin, -1), \"MMM yy\")",
+    "",
+    "VAR DataMaxMoM =",
+    "    FORMAT(EDATE(DataMax, -1), \"MMM yy\")",
+    "",
+    "RETURN",
+    "    IF(",
+    "        DataMin = DataMax,",
+    "        \"MoM% | ( \" & DataMin & \" ) vs ( \" & DataMinMoM & \" )\",",
+    "        \"MoM% | ( \" & DataMin & \" - \" &DataMax & \" ) vs ( \" & DataMinMoM & \" - \" &DataMaxMoM & \" )\"",
+    "    )"
+  ],
+  "displayFolder": "Texto",
+  "lineageTag": "b73fbb48-0b3c-4d5c-85b2-e170a47377f8"
+}

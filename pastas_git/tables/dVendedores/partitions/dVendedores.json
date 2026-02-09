@@ -1,0 +1,10 @@
+{
+  "name": "dVendedores",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dVendedores",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

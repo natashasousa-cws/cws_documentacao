@@ -1,0 +1,18 @@
+{
+  "name": "Meta de pedidos",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Pedidos] * 1.5",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Metas",
+  "lineageTag": "8578baee-d431-4c97-a724-5b0469978b5c",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

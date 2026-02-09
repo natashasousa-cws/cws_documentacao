@@ -1,0 +1,22 @@
+{
+  "name": "Ticket Médio faturado sem imposto por estado",
+  "description": "Ticket médio ponderado por estado",
+  "expression": [
+    "",
+    "AVERAGEX ( VALUES ( dClientes[state] ), [Ticket Médio faturado sem imposto] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ticket Médio\\Faturado sem imposto",
+  "lineageTag": "b7db78c6-35f2-469d-9f93-cf63aac0807e",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

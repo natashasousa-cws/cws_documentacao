@@ -1,0 +1,8 @@
+{
+  "name": "5de9a99d-b23c-5e3d-3fea-d479d7e1378c",
+  "fromTable": "dAssociados",
+  "fromColumn": "datekey",
+  "toTable": "dCalendario",
+  "toColumn": "datekey",
+  "isActive": false
+}

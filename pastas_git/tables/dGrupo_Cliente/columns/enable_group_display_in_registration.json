@@ -1,0 +1,18 @@
+{
+  "name": "enable_group_display_in_registration",
+  "dataType": "double",
+  "sourceColumn": "enable_group_display_in_registration",
+  "lineageTag": "f6ec3efb-09b9-44c6-bb8e-3084fb363cca",
+  "sourceLineageTag": "enable_group_display_in_registration",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

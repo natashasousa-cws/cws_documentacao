@@ -1,0 +1,10 @@
+{
+  "name": "dTempo",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dTempo",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

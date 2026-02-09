@@ -1,0 +1,15 @@
+{
+  "name": "Semana_Mês",
+  "dataType": "int64",
+  "sourceColumn": "Semana_Mês",
+  "formatString": "0",
+  "lineageTag": "0e49c958-9621-4744-9d2e-f143c760c08b",
+  "sourceLineageTag": "Semana_Mês",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

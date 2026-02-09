@@ -1,0 +1,15 @@
+{
+  "name": "Offset_Trimestre",
+  "dataType": "int64",
+  "sourceColumn": "Offset_Trimestre",
+  "formatString": "0",
+  "lineageTag": "90c6406a-eb30-4540-9af9-22ce93a79d51",
+  "sourceLineageTag": "Offset_Trimestre",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "7a0147d8-7dad-c879-1eb2-c95c6742e4e9",
+  "fromTable": "fVendas",
+  "fromColumn": "datekey",
+  "toTable": "dCalendario",
+  "toColumn": "datekey"
+}

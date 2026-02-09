@@ -1,0 +1,24 @@
+{
+  "name": "Faturamento digital",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    SUMX (",
+    "        VALUES ( fVendas[partner_order_id] ),",
+    "        CALCULATE (",
+    "            AVERAGE ( fVendas[order_total] ),",
+    "            dStatus_pedido[order_status_id] > 4",
+    "        )",
+    "    )",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\Faturado com imposto",
+  "lineageTag": "726986a8-24e0-4199-b01b-9991f81ed9a1",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

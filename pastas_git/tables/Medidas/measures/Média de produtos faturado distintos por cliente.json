@@ -1,0 +1,13 @@
+{
+  "name": "Média de produtos faturado distintos por cliente",
+  "expression": [
+    "",
+    "AVERAGEX (",
+    "    VALUES ( fVendas[client_account_id] ),",
+    "    [Quantidade de produtos distintos faturados]",
+    ")"
+  ],
+  "formatString": "#,0.0",
+  "displayFolder": "Produtos\\Faturado",
+  "lineageTag": "7b55bcf3-03ee-4d66-8b0a-44b06a50baf3"
+}

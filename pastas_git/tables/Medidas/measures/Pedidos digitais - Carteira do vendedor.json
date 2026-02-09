@@ -1,0 +1,27 @@
+{
+  "name": "Pedidos digitais - Carteira do vendedor",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Pedidos faturados],",
+    "",
+    "    -- 1) ignora vendedor registrado na venda",
+    "    REMOVEFILTERS( fVendas[salesperson_account_id] ),",
+    "",
+    "    -- 2) DESLIGA o relacionamento indesejado (caminho alternativo)",
+    "    CROSSFILTER(",
+    "        dVendedores[client_id],",
+    "        fVendas[client_account_id],",
+    "        NONE",
+    "    ),",
+    "",
+    "    -- 3) aplica o vendedor do contexto como filtro de carteira em dClientes",
+    "    TREATAS(",
+    "        VALUES( dVendedores[account_id] ),",
+    "        dClientes[salesperson_account_id]",
+    "    )",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "27d5fb8c-7f28-49ba-8a28-8dbcada7db38"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "dTipo_pedido",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dTipo_pedido",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

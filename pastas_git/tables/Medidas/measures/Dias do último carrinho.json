@@ -1,0 +1,15 @@
+{
+  "name": "Dias do último carrinho",
+  "expression": [
+    "",
+    "VAR UltimaDataCarrinho =",
+    "    CALCULATE(",
+    "        MAX('dCalendario'[Data]),",
+    "        KEEPFILTERS(fCarrinhos_abandonados)",
+    "    )",
+    "RETURN",
+    "DATEDIFF(UltimaDataCarrinho, TODAY(), DAY)"
+  ],
+  "formatString": "0",
+  "lineageTag": "14d01df3-f0e5-45ef-8781-3d4aa27b1690"
+}

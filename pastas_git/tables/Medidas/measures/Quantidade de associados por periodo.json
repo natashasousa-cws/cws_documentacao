@@ -1,0 +1,13 @@
+{
+  "name": "Quantidade de associados por periodo",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de associados],",
+    "    USERELATIONSHIP(dAssociados[datekey],dCalendario[datekey])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Associados",
+  "lineageTag": "4194e553-1f4b-420b-a45a-823e4de731e2"
+}

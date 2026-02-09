@@ -1,0 +1,19 @@
+{
+  "name": "Dias do último pedido",
+  "expression": [
+    "",
+    "VAR DataUltimoPedido =",
+    "    CALCULATE(",
+    "        MAX(dCalendario[data]),",
+    "        fVendas",
+    "    )",
+    "RETURN",
+    "IF(",
+    "    NOT ISBLANK(DataUltimoPedido),",
+    "    DATEDIFF(DataUltimoPedido, TODAY(), DAY),",
+    "    BLANK()",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "1a985801-330e-4363-b689-99620442ad86"
+}

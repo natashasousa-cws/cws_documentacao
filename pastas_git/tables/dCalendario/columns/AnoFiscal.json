@@ -1,0 +1,14 @@
+{
+  "name": "AnoFiscal",
+  "dataType": "string",
+  "sourceColumn": "AnoFiscal",
+  "lineageTag": "bcf0a026-a01c-48e9-9909-03460240e5e1",
+  "sourceLineageTag": "AnoFiscal",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

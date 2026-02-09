@@ -1,0 +1,12 @@
+{
+  "name": "Média da quantidade de itens por cliente",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    AVERAGEX ( VALUES ( fVendas[client_account_id] ), SUM ( fVendas[quantity] ) )",
+    ")"
+  ],
+  "formatString": "#,0.0",
+  "displayFolder": "Produtos\\Geral",
+  "lineageTag": "9653316b-afd4-4527-b914-3b56af997461"
+}

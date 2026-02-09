@@ -1,0 +1,25 @@
+{
+  "name": "Categorias 1 vistas últimos 30 dias",
+  "expression": [
+    "",
+    "VAR DataMaxima = TODAY()",
+    "VAR DataMinima = DataMaxima - 30",
+    "VAR CategoriasVistas =",
+    "    CALCULATETABLE(",
+    "        DISTINCT(dProdutos[category_level_1]),",
+    "        FILTER(",
+    "            fDatalayer_agg_pageviews,",
+    "            RELATED('dCalendario'[Data]) >= DataMinima &&",
+    "            RELATED('dCalendario'[Data]) <= DataMaxima &&",
+    "            fDatalayer_agg_pageviews[user_type] = \"Cliente navegando\"",
+    "        )",
+    "    )",
+    "RETURN",
+    "CONCATENATEX(",
+    "    CategoriasVistas,",
+    "    dProdutos[category_level_1],",
+    "    \", \"",
+    ")"
+  ],
+  "lineageTag": "76063713-aa8a-4458-8557-cbdd23e574db"
+}

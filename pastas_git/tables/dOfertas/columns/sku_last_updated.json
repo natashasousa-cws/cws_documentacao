@@ -1,0 +1,15 @@
+{
+  "name": "sku_last_updated",
+  "dataType": "dateTime",
+  "sourceColumn": "sku_last_updated",
+  "formatString": "General Date",
+  "lineageTag": "3620771c-69e9-4f0a-854c-df853636ef63",
+  "sourceLineageTag": "sku_last_updated",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

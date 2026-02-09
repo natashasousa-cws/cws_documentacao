@@ -1,0 +1,7 @@
+{
+  "name": "843ebe00-9058-6e88-1734-f2ea798572e5",
+  "fromTable": "fVendas",
+  "fromColumn": "order_type_id",
+  "toTable": "dTipo_pedido",
+  "toColumn": "order_type_id"
+}

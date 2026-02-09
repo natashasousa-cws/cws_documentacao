@@ -1,0 +1,14 @@
+{
+  "name": "funil",
+  "dataType": "string",
+  "sourceColumn": "funil",
+  "lineageTag": "5843ae73-4d65-4009-9e6e-f9634eb6f3ea",
+  "sourceLineageTag": "funil",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

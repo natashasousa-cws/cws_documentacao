@@ -1,0 +1,14 @@
+{
+  "name": "frota_propria",
+  "dataType": "string",
+  "sourceColumn": "frota_propria",
+  "lineageTag": "19af8a3e-4544-4d9c-9aba-8e2cdb52cd73",
+  "sourceLineageTag": "frota_propria",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

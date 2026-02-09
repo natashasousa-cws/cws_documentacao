@@ -1,0 +1,17 @@
+{
+  "name": "Total de pedidos",
+  "description": [
+    "Total de pedidos transacionados pela plataforma, engloba todos os status",
+    ""
+  ],
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DISTINCTCOUNT ( fVendas[partner_order_id] ),",
+    "    ALL ( dStatus_pedido[order_status_id] )",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "8287ef67-1a74-4935-877b-2d0415420d1b"
+}

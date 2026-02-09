@@ -1,0 +1,29 @@
+{
+  "name": "Valor de frete",
+  "description": "Valor de frete",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    AVERAGEX (",
+    "        VALUES ( fVendas[partner_order_id] ),",
+    "        CALCULATE (",
+    "            SUM ( fVendas[median_charged_shipping] )",
+    "        )",
+    "    )",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "49d9f2a1-6fdb-40f8-8744-54befa04a2ca",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

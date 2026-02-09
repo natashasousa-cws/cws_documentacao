@@ -1,0 +1,24 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "param_Cliente_Y",
+  "dataType": "string",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Value1]",
+  "sortByColumn": "param_Cliente_Y Pedido",
+  "lineageTag": "d9c3a54a-cc4b-4474-ab7f-b3b64673e93b",
+  "summarizeBy": "none",
+  "relatedColumnDetails": {
+    "groupByColumns": [
+      {
+        "groupingColumn": "param_Cliente_Y Campos"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

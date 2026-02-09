@@ -1,0 +1,18 @@
+{
+  "name": "Quantidade de produtos distintos vendidos",
+  "description": "Quantidade distinta de itens.",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DISTINCTCOUNT ( fVendas[sku_id] )",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Produtos\\Geral",
+  "lineageTag": "c35b5dec-e850-495a-9039-8624f07ca4fc",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ]
+}

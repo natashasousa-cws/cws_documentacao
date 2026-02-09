@@ -1,0 +1,14 @@
+{
+  "name": "zip_code",
+  "dataType": "string",
+  "sourceColumn": "zip_code",
+  "lineageTag": "c9e65979-8b8a-4327-9f92-52f0778296b1",
+  "sourceLineageTag": "zip_code",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

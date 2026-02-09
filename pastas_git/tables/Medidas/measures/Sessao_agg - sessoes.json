@@ -1,0 +1,12 @@
+{
+  "name": "Sessao_agg - sessoes",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    COUNT(fDatalayer_session_summary[session])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Sessao_agg",
+  "lineageTag": "547f6957-004e-424b-81a7-975198325c6f"
+}

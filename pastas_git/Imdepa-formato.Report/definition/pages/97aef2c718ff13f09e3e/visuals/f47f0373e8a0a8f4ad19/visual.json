@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "f47f0373e8a0a8f4ad19",
+  "position": {
+    "x": 1072,
+    "y": 894,
+    "z": 20000,
+    "height": 178,
+    "width": 546,
+    "tabOrder": 4000
+  },
+  "visualGroup": {
+    "displayName": "Balão 4",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Ticket Médio - Módulo vendedor",
+  "description": "Ticket médio dos pedidos em módulo vendedor",
+  "expression": [
+    "",
+    "DIVIDE ( [GMV - Módulo vendedor], [Pedidos - Módulo vendedor] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Ticket Médio\\GMV",
+  "lineageTag": "b7ca749a-5a44-487d-9146-5490c18916d5",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

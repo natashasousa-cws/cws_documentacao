@@ -1,0 +1,26 @@
+{
+  "name": "Data/Hora da última sessão (Cliente Navegando)",
+  "expression": [
+    "",
+    "VAR Base =",
+    "    CALCULATETABLE (",
+    "        fDatalayer_agg_pageviews,",
+    "        KEEPFILTERS ( fDatalayer_agg_pageviews[user_type] = \"Cliente Navegando\" )",
+    "    )",
+    "VAR Dk =",
+    "    MAXX ( Base, VALUE ( fDatalayer_agg_pageviews[datekey_max_datecreated] ) )",
+    "VAR TmTxt =",
+    "    MAXX ( Base, fDatalayer_agg_pageviews[max_datecreated_time] )",
+    "VAR Y = INT ( Dk / 10000 )",
+    "VAR M = INT ( MOD ( INT ( Dk / 100 ), 100 ) )",
+    "VAR D = MOD ( Dk, 100 )",
+    "VAR Dt = DATE ( Y, M, D )",
+    "VAR Tm =",
+    "    IF ( ISBLANK ( TmTxt ), BLANK (), TIMEVALUE ( TmTxt ) )",
+    "RETURN",
+    "IF ( ISBLANK ( Dk ) || ISBLANK ( Tm ), BLANK (), Dt + Tm )",
+    ""
+  ],
+  "formatString": "General Date",
+  "lineageTag": "921a590c-86d1-4283-ab26-8a4a9b54af40"
+}

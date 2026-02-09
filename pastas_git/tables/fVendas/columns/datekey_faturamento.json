@@ -1,0 +1,15 @@
+{
+  "name": "datekey_faturamento",
+  "dataType": "int64",
+  "sourceColumn": "datekey_faturamento",
+  "formatString": "0",
+  "lineageTag": "5cf1f84e-767d-4bf6-beac-810261e15683",
+  "sourceLineageTag": "datekey_faturamento",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

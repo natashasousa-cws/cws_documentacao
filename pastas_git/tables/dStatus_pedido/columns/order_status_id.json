@@ -1,0 +1,15 @@
+{
+  "name": "order_status_id",
+  "dataType": "int64",
+  "sourceColumn": "order_status_id",
+  "formatString": "0",
+  "lineageTag": "e87d9713-f6c2-44ea-87ba-0cc3b2fdce0c",
+  "sourceLineageTag": "order_status_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

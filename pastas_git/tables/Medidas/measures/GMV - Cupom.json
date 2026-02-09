@@ -1,0 +1,19 @@
+{
+  "name": "GMV - Cupom",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [GMV],",
+    "    NOT ISBLANK(fVendas[coupon_id])",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Receita digital\\GMV",
+  "lineageTag": "669b2252-295e-4b19-bee9-970429af67bd",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

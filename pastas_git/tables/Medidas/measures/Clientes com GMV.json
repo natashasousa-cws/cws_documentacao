@@ -1,0 +1,14 @@
+{
+  "name": "Clientes com GMV",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de clientes],",
+    "    FILTER(dClientes,",
+    "    [GMV])",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Clientes",
+  "lineageTag": "5df6c8bf-7fdc-42bc-9430-3dcd2df7a219"
+}

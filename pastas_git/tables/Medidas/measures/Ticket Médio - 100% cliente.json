@@ -1,0 +1,22 @@
+{
+  "name": "Ticket Médio - 100% cliente",
+  "description": "Ticket médio dos pedidos em auto atendimento",
+  "expression": [
+    "",
+    "DIVIDE ( [GMV - 100% cliente], [Pedidos - 100% cliente] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Ticket Médio\\GMV",
+  "lineageTag": "07814f10-ca48-4aab-b06e-b07812526948",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

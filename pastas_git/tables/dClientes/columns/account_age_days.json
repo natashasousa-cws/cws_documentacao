@@ -1,0 +1,15 @@
+{
+  "name": "account_age_days",
+  "dataType": "int64",
+  "sourceColumn": "account_age_days",
+  "formatString": "0",
+  "lineageTag": "4556930a-4e6e-4662-b245-7e062b124726",
+  "sourceLineageTag": "account_age_days",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

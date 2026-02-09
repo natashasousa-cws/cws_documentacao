@@ -1,0 +1,15 @@
+{
+  "name": "last_update_date",
+  "dataType": "dateTime",
+  "sourceColumn": "last_update_date",
+  "formatString": "General Date",
+  "lineageTag": "db812ac7-c365-4e6e-9908-6e834d9b826e",
+  "sourceLineageTag": "last_update_date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

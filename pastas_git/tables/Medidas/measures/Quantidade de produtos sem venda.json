@@ -1,0 +1,10 @@
+{
+  "name": "Quantidade de produtos sem venda",
+  "expression": [
+    "",
+    "[Quantidade de produtos cadastrados] - [Quantidade de produtos distintos vendidos]"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Produtos\\Geral",
+  "lineageTag": "eaca13d9-1739-4052-afa8-8e64631ab67b"
+}

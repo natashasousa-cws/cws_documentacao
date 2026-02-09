@@ -1,0 +1,20 @@
+{
+  "name": "Faturamento digital - Produto linha-a-linha",
+  "expression": [
+    "CALCULATE(",
+    "    SUMX(fVendas,",
+    "    (fVendas[quantity] * fVendas[amount_charged]) + fVendas[median_charged_shipping] + fVendas[avg_credit_card_interest] + fVendas[avg_total_tax]),",
+    "    dStatus_pedido[order_status_id] > 4",
+    ")",
+    ""
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\Faturado com imposto",
+  "lineageTag": "9862439d-5fa9-43b5-a3ca-4657aabab256",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

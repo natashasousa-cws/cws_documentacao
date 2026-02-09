@@ -1,0 +1,7 @@
+{
+  "name": "42c7f6dc-99e3-864c-d6fd-ee88dfd21133",
+  "fromTable": "fCarrinhos_abandonados",
+  "fromColumn": "sku_id",
+  "toTable": "dProdutos",
+  "toColumn": "sku_id"
+}

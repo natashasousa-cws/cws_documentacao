@@ -1,0 +1,16 @@
+{
+  "name": "Preco medio vendido",
+  "expression": [
+    "",
+    "AVERAGEX(fVendas, fVendas[unit_price])"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Produtos\\Geral",
+  "lineageTag": "8dfcf5f5-99ae-40dc-a80b-a38d39a0fb4d",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

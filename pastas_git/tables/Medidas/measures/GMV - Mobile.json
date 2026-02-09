@@ -1,0 +1,16 @@
+{
+  "name": "GMV - Mobile",
+  "expression": [
+    "",
+    "CALCULATE ( [GMV], dDispositivos[device_id] = 2 )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\GMV",
+  "lineageTag": "8e9b404e-254d-4448-b458-7f28f2c8b469",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

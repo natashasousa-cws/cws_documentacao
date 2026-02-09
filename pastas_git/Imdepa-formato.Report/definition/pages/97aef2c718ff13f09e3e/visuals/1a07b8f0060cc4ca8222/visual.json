@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "1a07b8f0060cc4ca8222",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 13000,
+    "height": 1080,
+    "width": 1920,
+    "tabOrder": 19000
+  },
+  "visualGroup": {
+    "displayName": "Cartão Guia",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}

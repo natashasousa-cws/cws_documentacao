@@ -1,0 +1,15 @@
+{
+  "name": "minuto",
+  "dataType": "int64",
+  "sourceColumn": "minuto",
+  "formatString": "0",
+  "lineageTag": "66aa060e-1f12-48d8-8d4f-947abf16cdf5",
+  "sourceLineageTag": "minuto",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

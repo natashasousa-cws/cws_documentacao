@@ -1,0 +1,7 @@
+{
+  "name": "31a658b4-2ac4-1386-737f-7436d40af29e",
+  "fromTable": "fDatalayer_agg_pageviews",
+  "fromColumn": "sku_id",
+  "toTable": "dProdutos",
+  "toColumn": "sku_id"
+}

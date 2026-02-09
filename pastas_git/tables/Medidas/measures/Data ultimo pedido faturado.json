@@ -1,0 +1,19 @@
+{
+  "name": "Data ultimo pedido faturado",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    CONVERT( MAX(fVendas[datekey]), DATETIME),",
+    "    dStatus_pedido[order_status_id] > 4",
+    ")"
+  ],
+  "formatString": "dd/mm/yyyy",
+  "displayFolder": "Pedidos\\Faturado",
+  "lineageTag": "64b38f99-8ab7-4916-82b5-2dfc7ad082d3",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    }
+  ]
+}

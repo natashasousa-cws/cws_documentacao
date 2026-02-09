@@ -1,0 +1,25 @@
+{
+  "name": "Ticket Médio faturado sem imposto por cliente",
+  "description": "Ticket médio ponderado por cliente",
+  "expression": [
+    "",
+    "AVERAGEX (",
+    "    VALUES ( fVendas[client_account_id] ),",
+    "    [Ticket Médio faturado sem imposto]",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ticket Médio\\Faturado sem imposto",
+  "lineageTag": "fb2ebb48-969d-4676-8a65-d45457d1a2a4",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "agg_last_purchase",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "agg_last_purchase",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

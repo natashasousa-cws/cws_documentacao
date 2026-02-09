@@ -1,0 +1,14 @@
+{
+  "name": "cupom_habilitado",
+  "dataType": "string",
+  "sourceColumn": "cupom_habilitado",
+  "lineageTag": "f53b00d7-6977-4405-bec2-9644dde537ca",
+  "sourceLineageTag": "cupom_habilitado",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

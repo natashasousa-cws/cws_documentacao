@@ -1,0 +1,15 @@
+{
+  "name": "datekey_min_datecreated",
+  "dataType": "int64",
+  "sourceColumn": "datekey_min_datecreated",
+  "formatString": "0",
+  "lineageTag": "ef681804-b0aa-4b9a-bf6c-45c8b0dde0d4",
+  "sourceLineageTag": "datekey_min_datecreated",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

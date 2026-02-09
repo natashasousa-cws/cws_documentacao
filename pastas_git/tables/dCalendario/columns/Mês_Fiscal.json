@@ -1,0 +1,15 @@
+{
+  "name": "Mês_Fiscal",
+  "dataType": "int64",
+  "sourceColumn": "Mês_Fiscal",
+  "formatString": "0",
+  "lineageTag": "3351007c-71fe-4e95-90a7-bc55d9f13edb",
+  "sourceLineageTag": "Mês_Fiscal",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "dMetodo_pagamento",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dMetodo_pagamento",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

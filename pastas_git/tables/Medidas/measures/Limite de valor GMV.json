@@ -1,0 +1,13 @@
+{
+  "name": "Limite de valor GMV",
+  "expression": "[GMV] * 1.1",
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "displayFolder": "Formatação",
+  "lineageTag": "fe22de70-6770-4a4d-b3e8-59171dab32e4",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

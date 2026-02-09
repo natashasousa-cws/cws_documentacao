@@ -1,0 +1,12 @@
+{
+  "name": "Ofertas",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    COUNT(dOfertas[sku_id])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Ofertas",
+  "lineageTag": "5e90ceed-7638-4de3-af9e-000d296d36d1"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "order_status",
+  "dataType": "string",
+  "sourceColumn": "order_status",
+  "lineageTag": "e5a0e118-2a5e-4aab-b250-e2c2fe00929a",
+  "sourceLineageTag": "order_status",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

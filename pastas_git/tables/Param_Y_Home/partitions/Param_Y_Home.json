@@ -1,0 +1,21 @@
+{
+  "name": "Param_Y_Home",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": [
+      "{",
+      "    (\"Receita Digital\", NAMEOF('Medidas'[GMV]), 0),",
+      "    (\"Pedidos\", NAMEOF('Medidas'[Pedidos]), 1),",
+      "    (\"Ticket Médio\", NAMEOF('Medidas'[Ticket Médio]), 2),",
+      "    (\"Clientes com pedidos\", NAMEOF('Medidas'[Quantidade de clientes com pedidos]), 3),",
+      "    (\"Clientes\", NAMEOF('Medidas'[Quantidade de clientes]), 4),",
+      "    (\"Receita Digital - Autoatendimento\", NAMEOF('Medidas'[GMV - Autoatendimento]), 5),",
+      "    (\"Receita Digital - Módulo vendedor\", NAMEOF('Medidas'[GMV - Módulo vendedor]), 6),",
+      "    (\"Receita Digital  - Venda assistida\", NAMEOF('Medidas'[GMV - Venda assistida]), 7),",
+      "    (\"Receita Digital  - Cupom\", NAMEOF('Medidas'[GMV - Cupom]), 8),",
+      "    (\"Taxa de conversão por login\", NAMEOF('Medidas'[Taxa de conversão por login]), 9)",
+      "}"
+    ]
+  }
+}

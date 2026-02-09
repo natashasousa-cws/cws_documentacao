@@ -1,0 +1,22 @@
+{
+  "name": "Frequencia de pedidos",
+  "expression": [
+    "",
+    "VAR dtmin =",
+    "    CALCULATE (",
+    "        CONVERT ( MIN ( fVendas[datekey] ), DATETIME )",
+    "    )",
+    "VAR ciclo =",
+    "    DATEDIFF ( dtmin, TODAY (), DAY )",
+    "RETURN",
+    "    DIVIDE ( ciclo, [Pedidos] )"
+  ],
+  "formatString": "#,0.0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "93252523-7da7-46dd-a215-72e88b886cb0",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ]
+}

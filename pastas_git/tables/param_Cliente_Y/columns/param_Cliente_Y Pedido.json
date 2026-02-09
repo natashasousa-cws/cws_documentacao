@@ -1,0 +1,18 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "param_Cliente_Y Pedido",
+  "dataType": "int64",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value3]",
+  "formatString": "0",
+  "lineageTag": "4b111e3d-06bd-4b7a-b1c4-9aae99c7d8ad",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

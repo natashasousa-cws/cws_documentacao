@@ -1,0 +1,15 @@
+{
+  "name": "Ranking de clientes por GMV",
+  "expression": [
+    "",
+    "RANKX(",
+    "    ALL(dClientes[account_id]),",
+    "    [GMV],",
+    "    ,",
+    "    DESC",
+    "    )"
+  ],
+  "formatString": "0",
+  "displayFolder": "Clientes",
+  "lineageTag": "9363f2c5-6e8d-405a-ad5e-240119105ded"
+}

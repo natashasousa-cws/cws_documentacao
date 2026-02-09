@@ -1,0 +1,13 @@
+{
+  "name": "Funil - carrinhos",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    COUNT(fDatalayer_agg_pageviews[sessoes_distintas]),",
+    "    fDatalayer_agg_pageviews[funil] IN {\"carrinho\", \"meus-carrinhos\"}",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Datalayer - Funil",
+  "lineageTag": "0e764a2c-b516-49e5-ab3b-8bdf4e7e2669"
+}

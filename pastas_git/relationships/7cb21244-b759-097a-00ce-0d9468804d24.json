@@ -1,0 +1,7 @@
+{
+  "name": "7cb21244-b759-097a-00ce-0d9468804d24",
+  "fromTable": "dOfertas",
+  "fromColumn": "associate_id",
+  "toTable": "dAssociados",
+  "toColumn": "copartner_id"
+}

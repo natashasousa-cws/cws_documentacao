@@ -1,0 +1,15 @@
+{
+  "name": "Variacao de quantidade de clientes com pedidos MoM",
+  "expression": [
+    "",
+    "VAR ValorAtual = [Quantidade de clientes com pedidos]",
+    "VAR ValorAnterior = [Quantidade de clientes com pedidos MoM]",
+    "VAR Variacao = ValorAtual - ValorAnterior",
+    "",
+    "RETURN",
+    "DIVIDE(Variacao, ValorAnterior)"
+  ],
+  "formatString": "0%;-0%;0%",
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "4d1e91d1-fcb4-4a02-be58-89ff64ecf84e"
+}

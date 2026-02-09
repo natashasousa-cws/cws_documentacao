@@ -1,0 +1,12 @@
+{
+  "name": "Funil - busca",
+  "expression": [
+    "CALCULATE(",
+    "    COUNT(fDatalayer_agg_pageviews[sessoes_distintas]),",
+    "    fDatalayer_agg_pageviews[funil] IN {\"busca\"}",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Datalayer - Funil",
+  "lineageTag": "3b31d726-fd7f-4659-b956-a7d62ee0e147"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ed6461e5-b43b-77c7-935c-f7f60f8610d2",
+  "fromTable": "dOfertas",
+  "fromColumn": "sku_id",
+  "toTable": "dProdutos",
+  "toColumn": "sku_id"
+}

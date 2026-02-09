@@ -1,0 +1,27 @@
+{
+  "name": "Valor potencial do último carrinho",
+  "expression": [
+    "",
+    "VAR UltimaDataCarrinho =",
+    "    CALCULATE(",
+    "        MAX('dCalendario'[Data]),",
+    "        KEEPFILTERS(fCarrinhos_abandonados)",
+    "    )",
+    "RETURN",
+    "CALCULATE(",
+    "    [Valor potencial do carrinho],",
+    "    FILTER(",
+    "        fCarrinhos_abandonados,",
+    "        RELATED('dCalendario'[Data]) = UltimaDataCarrinho",
+    "    )",
+    ")"
+  ],
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "lineageTag": "b43dbdfc-3f88-4820-b9a6-cf6d565063a8",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

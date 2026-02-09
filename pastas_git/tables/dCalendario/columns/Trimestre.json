@@ -1,0 +1,15 @@
+{
+  "name": "Trimestre",
+  "dataType": "int64",
+  "sourceColumn": "Trimestre",
+  "formatString": "0",
+  "lineageTag": "01f5b85c-8c76-4ae8-b788-cefb5f7371d2",
+  "sourceLineageTag": "Trimestre",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

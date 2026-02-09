@@ -1,0 +1,16 @@
+{
+  "name": "GMV - Venda assistida",
+  "expression": [
+    "",
+    "CALCULATE ( [GMV], dTipo_pedido[order_type_id] = 1 )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\GMV",
+  "lineageTag": "719b1b30-6d0e-4ac4-95c8-1d41f479c7bf",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Data/Hora da última visualização de item (Cliente Navegando)",
+  "expression": [
+    "",
+    "VAR Base =",
+    "    CALCULATETABLE (",
+    "        fDatalayer_product_pageviews,",
+    "        KEEPFILTERS ( fDatalayer_product_pageviews[visitor_isloggedin] = TRUE() ),",
+    "        KEEPFILTERS ( fDatalayer_product_pageviews[vendor_isloggedin] = FALSE() )",
+    "    )",
+    "RETURN",
+    "MAXX (",
+    "    Base,",
+    "    VAR Dk  = VALUE ( fDatalayer_product_pageviews[datekey_max_datecreated] )",
+    "    VAR TmT = fDatalayer_product_pageviews[max_datecreated_time]",
+    "    VAR Y = INT ( Dk / 10000 )",
+    "    VAR M = INT ( MOD ( INT ( Dk / 100 ), 100 ) )",
+    "    VAR D = MOD ( Dk, 100 )",
+    "    VAR Dt = DATE ( Y, M, D )",
+    "    VAR Tm = IF ( ISBLANK ( TmT ), BLANK (), TIMEVALUE ( TmT ) )",
+    "    RETURN IF ( ISBLANK ( Dk ) || ISBLANK ( Tm ), BLANK (), Dt + Tm )",
+    ")"
+  ],
+  "formatString": "General Date",
+  "lineageTag": "026d4651-31ef-4710-8fcb-0fbb55f05bdb"
+}

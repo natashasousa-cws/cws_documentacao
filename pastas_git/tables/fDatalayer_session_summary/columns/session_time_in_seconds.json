@@ -1,0 +1,15 @@
+{
+  "name": "session_time_in_seconds",
+  "dataType": "int64",
+  "sourceColumn": "session_time_in_seconds",
+  "formatString": "0",
+  "lineageTag": "e370b668-7b11-4d01-aa99-71e49e87e9b1",
+  "sourceLineageTag": "session_time_in_seconds",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

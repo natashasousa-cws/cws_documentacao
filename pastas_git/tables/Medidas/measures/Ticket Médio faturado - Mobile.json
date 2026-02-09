@@ -1,0 +1,21 @@
+{
+  "name": "Ticket Médio faturado - Mobile",
+  "expression": [
+    "",
+    "DIVIDE ( [Faturamento digital - Mobile], [Pedidos faturados - Mobile] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ticket Médio\\Faturado com imposto",
+  "lineageTag": "e145ce7a-aeac-4017-9cf5-0243c93df386",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

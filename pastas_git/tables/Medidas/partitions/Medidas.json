@@ -1,0 +1,8 @@
+{
+  "name": "Medidas",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "ROW ( \"Column\", BLANK () )"
+  }
+}

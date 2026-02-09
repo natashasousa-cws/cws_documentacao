@@ -1,0 +1,14 @@
+{
+  "name": "Quantidade de clientes - Venda assistida",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de clientes com pedidos],",
+    "    FILTER(dClientes,",
+    "    [Pedidos faturados - Venda assistida])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Clientes",
+  "lineageTag": "dd5e57e0-1b13-4332-9a8a-dcb6a993c59d"
+}

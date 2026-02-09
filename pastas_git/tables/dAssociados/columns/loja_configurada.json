@@ -1,0 +1,14 @@
+{
+  "name": "loja_configurada",
+  "dataType": "string",
+  "sourceColumn": "loja_configurada",
+  "lineageTag": "c4083cd8-12e2-4546-971e-3095902228df",
+  "sourceLineageTag": "loja_configurada",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

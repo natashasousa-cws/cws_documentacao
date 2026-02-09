@@ -1,0 +1,26 @@
+{
+  "name": "Pedidos faturados",
+  "description": [
+    "Número de pedidos, excluindo pedidos com status:",
+    "",
+    "- Cancelado",
+    "- Aguardando pagamento",
+    "- Pré-encomenda",
+    "- Pagamento no caixa"
+  ],
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DISTINCTCOUNT ( fVendas[partner_order_id] ),",
+    "    dStatus_pedido[order_status_id] > 4",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Faturado",
+  "lineageTag": "be3dba7a-3511-4641-a488-9372c310d51f",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ]
+}

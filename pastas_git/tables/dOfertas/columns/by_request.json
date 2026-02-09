@@ -1,0 +1,15 @@
+{
+  "name": "by_request",
+  "dataType": "int64",
+  "sourceColumn": "by_request",
+  "formatString": "0",
+  "lineageTag": "ab30e6ae-b7e1-42ee-90b7-8ed086101133",
+  "sourceLineageTag": "by_request",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

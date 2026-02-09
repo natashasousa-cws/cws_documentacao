@@ -1,0 +1,15 @@
+{
+  "name": "data",
+  "dataType": "dateTime",
+  "sourceColumn": "data",
+  "formatString": "General Date",
+  "lineageTag": "a7fb21ea-95af-450f-be94-5a157195a7c5",
+  "sourceLineageTag": "data",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

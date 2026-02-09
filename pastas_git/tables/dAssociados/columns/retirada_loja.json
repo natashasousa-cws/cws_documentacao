@@ -1,0 +1,14 @@
+{
+  "name": "retirada_loja",
+  "dataType": "string",
+  "sourceColumn": "retirada_loja",
+  "lineageTag": "83ae280b-daf8-45a0-a093-b602a953a5b4",
+  "sourceLineageTag": "retirada_loja",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

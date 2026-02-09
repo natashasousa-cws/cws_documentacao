@@ -1,0 +1,14 @@
+{
+  "name": "Nome_Dia",
+  "dataType": "string",
+  "sourceColumn": "Nome_Dia",
+  "lineageTag": "79653ae8-3f71-49b8-a97d-80b35280cac5",
+  "sourceLineageTag": "Nome_Dia",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

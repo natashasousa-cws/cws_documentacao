@@ -1,0 +1,10 @@
+{
+  "name": "Quantidade de itens no carrinho",
+  "expression": [
+    "",
+    "SUM(fCarrinhos_abandonados[quantity])"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Carrinhos abandonados",
+  "lineageTag": "f71c5ae6-10a2-4bc2-98c9-9678b123b15f"
+}

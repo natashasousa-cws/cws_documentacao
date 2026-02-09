@@ -1,0 +1,14 @@
+{
+  "name": "Clientes Autoatendimento",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de clientes],",
+    "    FILTER(dClientes,",
+    "    [Pedidos - Autoatendimento])",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Clientes",
+  "lineageTag": "91fc3280-ee1b-444b-bc86-9396effd721e"
+}

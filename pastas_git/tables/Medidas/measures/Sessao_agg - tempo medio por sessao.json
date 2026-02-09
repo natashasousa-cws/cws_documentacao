@@ -1,0 +1,32 @@
+{
+  "name": "Sessao_agg - tempo medio por sessao",
+  "expression": [
+    "",
+    "VAR tempo =",
+    "    CALCULATE (",
+    "        AVERAGEX (",
+    "            VALUES ( fDatalayer_session_summary[session] ),",
+    "            AVERAGE ( fDatalayer_session_summary[session_time_in_seconds] )",
+    "        )",
+    "    )",
+    "VAR hora =",
+    "    INT ( tempo / 3600 )",
+    "VAR modhora =",
+    "    MOD ( tempo, 3600 )",
+    "VAR minutos =",
+    "    INT ( modhora / 60 )",
+    "VAR segundos =",
+    "    INT ( MOD ( tempo, 60 ) )",
+    "RETURN",
+    "    hora * 10000 + minutos * 100 + segundos"
+  ],
+  "formatString": "00:00:00",
+  "displayFolder": "Sessao_agg",
+  "lineageTag": "93031175-4f4f-4076-9445-b582ea40f2d6",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}

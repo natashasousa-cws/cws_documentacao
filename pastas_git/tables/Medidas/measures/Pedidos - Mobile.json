@@ -1,0 +1,11 @@
+{
+  "name": "Pedidos - Mobile",
+  "description": "Pedidos via mobile",
+  "expression": [
+    "",
+    "CALCULATE ( [Pedidos], dDispositivos[device_id] = 2 )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "46c5a705-e4d6-4770-88eb-79c92455697e"
+}

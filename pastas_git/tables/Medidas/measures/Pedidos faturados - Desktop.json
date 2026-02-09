@@ -1,0 +1,11 @@
+{
+  "name": "Pedidos faturados - Desktop",
+  "description": "Pedidos via desktop",
+  "expression": [
+    "",
+    "CALCULATE ( [Pedidos faturados], dDispositivos[device_id] = 1 )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Faturado",
+  "lineageTag": "17ffa0c7-4dcd-47a8-ab2e-961fac7d2e52"
+}

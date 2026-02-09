@@ -1,0 +1,12 @@
+{
+  "name": "Estoque de ofertas",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    SUM(dOfertas[quantity_avaliable])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Ofertas",
+  "lineageTag": "df9fc510-27a6-4438-bb7b-b0dbd17bea13"
+}

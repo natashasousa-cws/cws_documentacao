@@ -1,0 +1,14 @@
+{
+  "name": "Quantidade de clientes - 100% cliente",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de clientes com pedidos],",
+    "    FILTER(dClientes,",
+    "    [Pedidos faturados - 100% cliente])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Clientes",
+  "lineageTag": "1a39b77b-6f97-4217-86f2-ae7d054a3149"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Quantidade de carrinhos abandonados via app",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de carrinhos abandonados],",
+    "    dDispositivos[device_id] = 3",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Carrinhos abandonados",
+  "lineageTag": "ddb21b1c-7834-4791-97c5-c59a1a18eb1a"
+}

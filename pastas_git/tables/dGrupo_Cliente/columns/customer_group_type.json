@@ -1,0 +1,14 @@
+{
+  "name": "customer_group_type",
+  "dataType": "string",
+  "sourceColumn": "customer_group_type",
+  "lineageTag": "87ac3ca5-b4da-44dd-80c2-8705dc5d0b6d",
+  "sourceLineageTag": "customer_group_type",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

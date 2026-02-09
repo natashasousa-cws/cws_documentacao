@@ -1,0 +1,15 @@
+{
+  "name": "distinct_count_session",
+  "dataType": "int64",
+  "sourceColumn": "distinct_count_session",
+  "formatString": "0",
+  "lineageTag": "34476062-1608-4572-a439-904592cd2217",
+  "sourceLineageTag": "distinct_count_session",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

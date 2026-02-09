@@ -1,0 +1,14 @@
+{
+  "name": "manufacturer",
+  "dataType": "string",
+  "sourceColumn": "manufacturer",
+  "lineageTag": "ed65794f-5f82-4829-ab30-30be1f69d4fe",
+  "sourceLineageTag": "manufacturer",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

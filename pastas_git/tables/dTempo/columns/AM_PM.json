@@ -1,0 +1,14 @@
+{
+  "name": "AM_PM",
+  "dataType": "string",
+  "sourceColumn": "AM_PM",
+  "lineageTag": "44a41926-e5db-4d4d-9395-4de64ec3957e",
+  "sourceLineageTag": "AM_PM",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

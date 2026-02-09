@@ -1,0 +1,360 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 2214.6352106955133,
+        "y": 794.487967962516
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 2214.9611557756443,
+            "y": 926.75902297798348
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "9c06ff6b-e17e-485f-b97c-806a11e59ae7",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2498.9611557756443,
+            "y": 988.75902297798348
+          },
+          "nodeIndex": "agg_last_login",
+          "nodeLineageTag": "58b69033-993e-4157-b0da-8afa91bad283",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2782.9611557756443,
+            "y": 988.75902297798348
+          },
+          "nodeIndex": "agg_last_purchase",
+          "nodeLineageTag": "912879a1-90bf-44b8-89a5-f77e1674ef16",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 626.8668278045941,
+            "y": 307.30832648835758
+          },
+          "nodeIndex": "dAssociados",
+          "nodeLineageTag": "a8be0e3c-5b67-44ad-a5c9-bf58e0c38c24",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1027.6509127153854,
+            "y": 831.54090610975015
+          },
+          "nodeIndex": "dCalendario",
+          "nodeLineageTag": "c402c646-459a-4488-a6b4-4fe30bf2c094",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3066.9611557756443,
+            "y": 1000.7590229779835
+          },
+          "nodeIndex": "dCarteirizacao",
+          "nodeLineageTag": "4fefed84-11fe-4ef1-ab0d-9d5021e07b39",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1190.5782470343345,
+            "y": 1446.2585237091785
+          },
+          "nodeIndex": "dClientes",
+          "nodeLineageTag": "cb2a43eb-94d6-4bbd-8c5d-6eba0e3bcda6",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3350.9611557756443,
+            "y": 964.75902297798348
+          },
+          "nodeIndex": "dCupons",
+          "nodeLineageTag": "1f3e3a7c-b8f7-4a35-b702-8adefb3d7930",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1980.9611557756443,
+            "y": 951.234966658556
+          },
+          "nodeIndex": "dDispositivos",
+          "nodeLineageTag": "50611dc9-cc9b-4399-9fb6-2165d89a9788",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3634.9611557756443,
+            "y": 1000.7590229779835
+          },
+          "nodeIndex": "dFeriados",
+          "nodeLineageTag": "70fca2e6-2eed-49b3-a6f9-3d74bb4cf24b",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3918.9611557756443,
+            "y": 976.75902297798348
+          },
+          "nodeIndex": "dGrupo_Cliente",
+          "nodeLineageTag": "79ebea88-dc62-4978-8d47-caccebe5166b",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1064.5575076429539,
+            "y": 342.19265862506882
+          },
+          "nodeIndex": "dMetodo_pagamento",
+          "nodeLineageTag": "62a164d7-9d7a-4f30-9ca5-f46b75fd9b11",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 510.80884254323064,
+            "y": -50
+          },
+          "nodeIndex": "dOfertas",
+          "nodeLineageTag": "521aab99-45b1-4aa6-bf92-793b6eb62153",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4202.9611557756443,
+            "y": 1000.7590229779835
+          },
+          "nodeIndex": "dPeriodos",
+          "nodeLineageTag": "6412da6b-c1ad-40cb-8f80-7498e5841574",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 915.97883506383675,
+            "y": 16.063017196090186
+          },
+          "nodeIndex": "dProdutos",
+          "nodeLineageTag": "79084cd0-9d35-45c8-8efe-51941cc004fd",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1410.0914464113021,
+            "y": 1017.8236985037443
+          },
+          "nodeIndex": "dStatus_pedido",
+          "nodeLineageTag": "2f8d2a83-0784-4faf-aa73-1ecb9dc90fb9",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1600.6931133060566,
+            "y": 755.53282974458443
+          },
+          "nodeIndex": "dTipo_envio",
+          "nodeLineageTag": "8d882799-d050-437f-91e5-c0369d6f3468",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1695.02605201726,
+            "y": 940.93406299983144
+          },
+          "nodeIndex": "dTipo_pedido",
+          "nodeLineageTag": "213b4aa4-50a7-4b98-ac81-fad315b473d6",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 903.02078404220367,
+            "y": 1187.9323590458321
+          },
+          "nodeIndex": "dVendedores",
+          "nodeLineageTag": "4f388db7-3ebf-4f85-8957-4ec35a44ba82",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 339.42925829835417,
+            "y": 307.93701022422943
+          },
+          "nodeIndex": "fCarrinhos_abandonados",
+          "nodeLineageTag": "18685a13-a600-46d8-bd08-9f2c5bab5b91",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 308.00667118879119
+          },
+          "nodeIndex": "fDatalayer_agg_pageviews",
+          "nodeLineageTag": "2afd34a6-5601-421c-97f6-bba2bb0462ba",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 154.11394404223222,
+            "y": 665.16411063360647
+          },
+          "nodeIndex": "fDatalayer_product_pageviews",
+          "nodeLineageTag": "3192d389-b2bc-49c7-85e7-38b09babc6a9",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 948.7343006832964,
+            "y": 1803.5180459559672
+          },
+          "nodeIndex": "fDatalayer_session_summary",
+          "nodeLineageTag": "9269577d-ee9b-43cc-b964-f0f99e54eac6",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1247.3253505897364,
+            "y": 1803.1914891867229
+          },
+          "nodeIndex": "fLogins",
+          "nodeLineageTag": "e4d32ab2-05bd-4a1f-a64c-e6f12d47dc2a",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1315.0892085528271,
+            "y": 521.15876749869858
+          },
+          "nodeIndex": "fVendas",
+          "nodeLineageTag": "a87d1ec2-0a75-4baa-b2de-15788aecbc6e",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4486.9611557756443,
+            "y": 1000.7590229779835
+          },
+          "nodeIndex": "Param_Y_Home",
+          "nodeLineageTag": "bdd618fe-cc27-4a9e-a867-53d01a96aec4",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 50.346892102823141,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

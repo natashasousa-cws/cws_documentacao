@@ -1,0 +1,15 @@
+{
+  "name": "TimeKey",
+  "dataType": "int64",
+  "sourceColumn": "TimeKey",
+  "formatString": "0",
+  "lineageTag": "c5a7e619-3387-4b77-8489-2fbffe436c28",
+  "sourceLineageTag": "TimeKey",
+  "summarizeBy": "count",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

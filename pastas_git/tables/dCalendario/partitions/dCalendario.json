@@ -1,0 +1,10 @@
+{
+  "name": "dCalendario",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dCalendario",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

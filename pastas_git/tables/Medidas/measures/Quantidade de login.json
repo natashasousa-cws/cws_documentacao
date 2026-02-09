@@ -1,0 +1,11 @@
+{
+  "name": "Quantidade de login",
+  "description": "Quantidade de logins",
+  "expression": [
+    "",
+    "CALCULATE ( COUNT ( fLogins[login_date] ), VALUES ( fLogins[account_id] ) )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Login",
+  "lineageTag": "69cadd85-616e-40cc-8547-8e9cd265044c"
+}

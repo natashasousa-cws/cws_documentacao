@@ -1,0 +1,17 @@
+{
+  "name": "DirectLake - imdepa_gold_lake",
+  "kind": "m",
+  "expression": [
+    "let",
+    "    Source = AzureStorage.DataLake(\"https://onelake.dfs.fabric.microsoft.com/abcbaa19-fb1a-4e91-86e6-5297bfe42be8/5d7f9546-bb66-473b-bf1e-7a633840385e\", [HierarchicalNavigation=true])",
+    "in",
+    "    Source"
+  ],
+  "lineageTag": "32a981bc-21d2-4075-b85e-41228e16024b",
+  "annotations": [
+    {
+      "name": "PBI_IncludeFutureArtifacts",
+      "value": "False"
+    }
+  ]
+}

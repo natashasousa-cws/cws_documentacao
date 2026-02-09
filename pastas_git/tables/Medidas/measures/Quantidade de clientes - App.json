@@ -1,0 +1,14 @@
+{
+  "name": "Quantidade de clientes - App",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de clientes com pedidos],",
+    "    FILTER(dClientes,",
+    "    [Pedidos faturados - App])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Clientes",
+  "lineageTag": "df78bbf5-923e-41bf-9426-e47d0349c328"
+}

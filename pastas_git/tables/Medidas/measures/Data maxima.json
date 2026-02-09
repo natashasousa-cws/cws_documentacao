@@ -1,0 +1,13 @@
+{
+  "name": "Data maxima",
+  "expression": "MAX(dCalendario[Data])",
+  "formatString": "dd/mm/yyyy",
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "db1bea1b-dd94-47dc-ba41-81ab12cc2cf5",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    }
+  ]
+}

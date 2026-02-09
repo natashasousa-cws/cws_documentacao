@@ -1,0 +1,16 @@
+{
+  "name": "Email Imdepa?",
+  "expression": [
+    "",
+    "VAR Dominio =",
+    "    CALCULATE(",
+    "        MAX(dClientes[account_user]))",
+    "RETURN",
+    "IF(",
+    "    NOT ISBLANK(Dominio) && CONTAINSSTRING(LOWER(Dominio), \"imdepa\"),",
+    "    \"Sim\",",
+    "    \"Não\"",
+    ")"
+  ],
+  "lineageTag": "e27a3cb0-e6fb-43c8-8da0-eb2669718c7d"
+}

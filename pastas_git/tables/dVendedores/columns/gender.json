@@ -1,0 +1,14 @@
+{
+  "name": "gender",
+  "dataType": "string",
+  "sourceColumn": "gender",
+  "lineageTag": "de0fcec3-9183-4773-9401-15f660b01c27",
+  "sourceLineageTag": "gender",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "salesperson_document",
+  "dataType": "string",
+  "sourceColumn": "salesperson_document",
+  "lineageTag": "9de5db94-2425-41ba-93f4-a6212efbc24d",
+  "sourceLineageTag": "salesperson_document",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "fVendas_datatime",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "fVendas_datatime",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Quantidade de associados com pedidos",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DISTINCTCOUNT ( fVendas[partner_id] )",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Associados",
+  "lineageTag": "edbb705e-0ba0-48b4-ab70-309dc244ae34"
+}

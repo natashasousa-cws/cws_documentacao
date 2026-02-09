@@ -1,0 +1,13 @@
+{
+  "name": "Média de produtos distintos por cliente",
+  "expression": [
+    "",
+    "AVERAGEX (",
+    "    VALUES ( fVendas[client_account_id] ),",
+    "    [Quantidade de produtos distintos vendidos]",
+    ")"
+  ],
+  "formatString": "#,0.0",
+  "displayFolder": "Produtos\\Geral",
+  "lineageTag": "3a83e867-e401-4945-94ad-c17f6a99670a"
+}

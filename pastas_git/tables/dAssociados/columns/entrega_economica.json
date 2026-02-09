@@ -1,0 +1,14 @@
+{
+  "name": "entrega_economica",
+  "dataType": "string",
+  "sourceColumn": "entrega_economica",
+  "lineageTag": "544b7583-41e3-4266-a540-309a300dc17c",
+  "sourceLineageTag": "entrega_economica",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

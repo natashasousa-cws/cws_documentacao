@@ -1,0 +1,14 @@
+{
+  "name": "wirecard",
+  "dataType": "string",
+  "sourceColumn": "wirecard",
+  "lineageTag": "bd6bdedf-1520-4beb-953e-3e6813f7985e",
+  "sourceLineageTag": "wirecard",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

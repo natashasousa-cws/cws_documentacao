@@ -1,0 +1,24 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Param_Y_Home",
+  "dataType": "string",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Value1]",
+  "sortByColumn": "Param_Y_Home Pedido",
+  "lineageTag": "cc0cd80d-090c-4b02-9922-5404907b8a3d",
+  "summarizeBy": "none",
+  "relatedColumnDetails": {
+    "groupByColumns": [
+      {
+        "groupingColumn": "Param_Y_Home Campos"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

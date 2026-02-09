@@ -1,0 +1,14 @@
+{
+  "name": "Feriado",
+  "dataType": "string",
+  "sourceColumn": "Feriado",
+  "lineageTag": "2486e93e-6327-4a11-bc37-43a769fe4a41",
+  "sourceLineageTag": "Feriado",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

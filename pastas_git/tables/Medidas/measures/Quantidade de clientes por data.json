@@ -1,0 +1,13 @@
+{
+  "name": "Quantidade de clientes por data",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Quantidade de clientes],",
+    "    USERELATIONSHIP(dClientes[datekey],dCalendario[datekey])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Clientes",
+  "lineageTag": "1a0f8345-2197-4c8b-8c6d-fa8190dc1432"
+}

@@ -1,0 +1,272 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.1.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY25SU10",
+      "reportVersionAtImport": {
+        "visual": "2.1.0",
+        "report": "3.0.0",
+        "page": "2.3.0"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "CWS01923468061108724.json",
+      "reportVersionAtImport": {
+        "visual": "2.1.0",
+        "report": "3.0.0",
+        "page": "2.3.0"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "6d43eadef6c791230e3a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "dCalendario"
+              }
+            },
+            "Property": "Futuro"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "d",
+              "Entity": "dCalendario",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Futuro"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "false"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "5bc7f9b1db29abde7ee5",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "dCalendario"
+              }
+            },
+            "Property": "Ano"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "d",
+              "Entity": "dCalendario",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 2,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "d"
+                        }
+                      },
+                      "Property": "Ano"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "2025L"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "visible": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "Background+Shadow977549336711536.png",
+          "path": "Background+Shadow977549336711536.png",
+          "type": "Image"
+        },
+        {
+          "name": "circle-xmark2500230479673685.png",
+          "path": "circle-xmark2500230479673685.png",
+          "type": "Image"
+        },
+        {
+          "name": "close_(1)9599924882168298.png",
+          "path": "close_(1)9599924882168298.png",
+          "type": "Image"
+        },
+        {
+          "name": "Comunica__o_-_Imdepa5191837798687639.png",
+          "path": "Comunica__o_-_Imdepa5191837798687639.png",
+          "type": "Image"
+        },
+        {
+          "name": "Convers_o_Carrinhos_-_Imdepa5210070244103678.png",
+          "path": "Convers_o_Carrinhos_-_Imdepa5210070244103678.png",
+          "type": "Image"
+        },
+        {
+          "name": "Convers_o_Funil_-_Imdepa9847539728636282.png",
+          "path": "Convers_o_Funil_-_Imdepa9847539728636282.png",
+          "type": "Image"
+        },
+        {
+          "name": "CWS01923468061108724.json",
+          "path": "CWS01923468061108724.json",
+          "type": "Image"
+        },
+        {
+          "name": "Engajamento_-_Imdepa8124689727532773.png",
+          "path": "Engajamento_-_Imdepa8124689727532773.png",
+          "type": "Image"
+        },
+        {
+          "name": "Marketplace_-_Comparativo_Sell36193336663228326.png",
+          "path": "Marketplace_-_Comparativo_Sell36193336663228326.png",
+          "type": "Image"
+        },
+        {
+          "name": "Marketplace_-_Vis_o_Geral_Sell34141527711385755.png",
+          "path": "Marketplace_-_Vis_o_Geral_Sell34141527711385755.png",
+          "type": "Image"
+        },
+        {
+          "name": "Promo__es_-_Imdepa700411643591058.png",
+          "path": "Promo__es_-_Imdepa700411643591058.png",
+          "type": "Image"
+        },
+        {
+          "name": "Vendedor_-_Imdepa_(1)006449937854970389.png",
+          "path": "Vendedor_-_Imdepa_(1)006449937854970389.png",
+          "type": "Image"
+        },
+        {
+          "name": "Vendedor_Time-_Imdepa18358924805996357.png",
+          "path": "Vendedor_Time-_Imdepa18358924805996357.png",
+          "type": "Image"
+        },
+        {
+          "name": "Vis_o_Geral_-Imdepa055387768795702064.png",
+          "path": "Vis_o_Geral_-Imdepa055387768795702064.png",
+          "type": "Image"
+        },
+        {
+          "name": "Comunica__o040577555845548785.png",
+          "path": "Comunica__o040577555845548785.png",
+          "type": "Image"
+        },
+        {
+          "name": "Produtos_vendedor_-_Imdepa3829458952827879.png",
+          "path": "Produtos_vendedor_-_Imdepa3829458952827879.png",
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY25SU10",
+          "path": "BaseThemes/CY25SU10.json",
+          "type": "BaseTheme"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

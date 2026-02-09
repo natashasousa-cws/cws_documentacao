@@ -1,0 +1,25 @@
+{
+  "name": "Ticket Médio faturado sem imposto - Módulo vendedor",
+  "description": "Ticket médio dos pedidos em módulo vendedor",
+  "expression": [
+    "",
+    "DIVIDE (",
+    "    [Faturamento digital sem imposto - Módulo vendedor],",
+    "    [Pedidos faturados - Módulo vendedor]",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ticket Médio\\Faturado sem imposto",
+  "lineageTag": "3910b3d1-597d-47f5-a0bc-14c71ade220a",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

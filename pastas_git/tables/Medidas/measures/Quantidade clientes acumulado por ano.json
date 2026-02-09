@@ -1,0 +1,25 @@
+{
+  "name": "Quantidade clientes acumulado por ano",
+  "expression": [
+    "",
+    "VAR MaxDataVisivel =",
+    "    MAX ( dCalendario[Data] ) // Pega a última data real do contexto (ex: 31 de janeiro)",
+    "VAR AnoAtual =",
+    "    YEAR ( MaxDataVisivel ) // Pega o ano dessa data",
+    "RETURN",
+    "    CALCULATE (",
+    "        DISTINCTCOUNT ( dClientes[client_id] ),",
+    "        FILTER (",
+    "            ALL ( dCalendario ),",
+    "            // Filtra a tabela calendário para o período acumulado",
+    "            YEAR ( dCalendario[Data] ) = AnoAtual",
+    "                && dCalendario[Data] <= MaxDataVisivel",
+    "        ),",
+    "        // Ativa a relação pela chave numérica para este cálculo",
+    "        USERELATIONSHIP ( dCalendario[datekey], dClientes[datekey] )",
+    "    )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Clientes",
+  "lineageTag": "080bca7f-6a18-47c9-abbc-c45991d66e5d"
+}

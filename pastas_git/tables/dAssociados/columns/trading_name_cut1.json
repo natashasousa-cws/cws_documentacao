@@ -1,0 +1,14 @@
+{
+  "name": "trading_name_cut1",
+  "dataType": "string",
+  "sourceColumn": "trading_name_cut1",
+  "lineageTag": "7ffc735e-a4e5-43bc-8cea-71be8557cdc6",
+  "sourceLineageTag": "trading_name_cut1",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

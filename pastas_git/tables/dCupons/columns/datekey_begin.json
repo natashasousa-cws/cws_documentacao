@@ -1,0 +1,15 @@
+{
+  "name": "datekey_begin",
+  "dataType": "int64",
+  "sourceColumn": "datekey_begin",
+  "formatString": "0",
+  "lineageTag": "2b8f3063-391f-4f64-bd15-ce50b9fb3f6f",
+  "sourceLineageTag": "datekey_begin",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

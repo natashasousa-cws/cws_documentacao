@@ -1,0 +1,15 @@
+{
+  "name": "partnership_date",
+  "dataType": "dateTime",
+  "sourceColumn": "partnership_date",
+  "formatString": "General Date",
+  "lineageTag": "46403b58-165c-4b2b-9cee-4313cc0dd79c",
+  "sourceLineageTag": "partnership_date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

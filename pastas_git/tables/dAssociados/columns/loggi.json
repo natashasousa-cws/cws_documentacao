@@ -1,0 +1,14 @@
+{
+  "name": "loggi",
+  "dataType": "string",
+  "sourceColumn": "loggi",
+  "lineageTag": "d6663b73-20ce-4b5b-a3f8-998a82f966d3",
+  "sourceLineageTag": "loggi",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

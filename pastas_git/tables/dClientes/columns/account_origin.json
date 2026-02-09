@@ -1,0 +1,14 @@
+{
+  "name": "account_origin",
+  "dataType": "string",
+  "sourceColumn": "account_origin",
+  "lineageTag": "41ac78b1-ef77-4643-ba4b-9306b67e47ed",
+  "sourceLineageTag": "account_origin",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

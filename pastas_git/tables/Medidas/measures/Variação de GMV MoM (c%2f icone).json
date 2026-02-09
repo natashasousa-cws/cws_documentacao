@@ -1,0 +1,21 @@
+{
+  "name": "Variação de GMV MoM (c/ icone)",
+  "expression": [
+    "",
+    "VAR Porcentagem = [Variacao de GMV MoM]",
+    "",
+    "VAR Icone =",
+    "    SWITCH(",
+    "        TRUE(),",
+    "        ISBLANK(Porcentagem), \"➖\",",
+    "        Porcentagem > 0, \"🡅\",",
+    "        Porcentagem < 0, \"🡇\",",
+    "        \"➖\"",
+    "    )",
+    "",
+    "RETURN",
+    "    Icone & \" \" & FORMAT(Porcentagem, \"#,##0%\")"
+  ],
+  "displayFolder": "Texto",
+  "lineageTag": "92f079fd-1491-4e77-85ba-6f8cf20d06d0"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Pedidos faturados - Venda assistida",
+  "description": "Pedidos realizados com interação cliente-vendedor",
+  "expression": [
+    "",
+    "CALCULATE ( [Pedidos faturados], dTipo_pedido[order_type_id] = 1 )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Faturado",
+  "lineageTag": "96e87ae7-1158-4eb0-8fa3-8568cb269b35"
+}

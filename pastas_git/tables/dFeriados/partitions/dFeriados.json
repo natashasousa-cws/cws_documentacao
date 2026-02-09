@@ -1,0 +1,10 @@
+{
+  "name": "dFeriados",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dFeriados",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

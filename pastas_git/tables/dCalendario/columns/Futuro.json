@@ -1,0 +1,15 @@
+{
+  "name": "Futuro",
+  "dataType": "boolean",
+  "sourceColumn": "Futuro",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "22090da1-7118-41cd-bb0a-d07313aaaba8",
+  "sourceLineageTag": "Futuro",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

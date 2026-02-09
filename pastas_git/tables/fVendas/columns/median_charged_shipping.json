@@ -1,0 +1,24 @@
+{
+  "name": "median_charged_shipping",
+  "dataType": "decimal",
+  "sourceColumn": "median_charged_shipping",
+  "formatString": "\"R$\"#,0;-\"R$\"#,0;\"R$\"#,0",
+  "lineageTag": "6c9eeeff-f6ff-4b9d-b18c-112b7f5eefe3",
+  "sourceLineageTag": "median_charged_shipping",
+  "summarizeBy": "sum",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"es-BR\"}"
+    }
+  ]
+}

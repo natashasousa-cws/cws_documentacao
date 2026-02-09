@@ -1,0 +1,22 @@
+{
+  "name": "Ticket Médio por cliente",
+  "description": "Ticket médio ponderado por cliente",
+  "expression": [
+    "",
+    "AVERAGEX ( VALUES ( fVendas[client_account_id] ), [Ticket Médio] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Ticket Médio\\GMV",
+  "lineageTag": "a53619d1-cbf6-42de-905d-8701902d0267",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

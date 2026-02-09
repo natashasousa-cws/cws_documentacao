@@ -1,0 +1,11 @@
+{
+  "name": "Pedidos - 100% cliente",
+  "description": "Pedidos realizados 100% pelo cliente",
+  "expression": [
+    "",
+    "CALCULATE ( [Pedidos], dTipo_pedido[order_type_id] = 3 )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "3968a02b-a6d1-4fc2-9ff8-1789ccbbfaf2"
+}

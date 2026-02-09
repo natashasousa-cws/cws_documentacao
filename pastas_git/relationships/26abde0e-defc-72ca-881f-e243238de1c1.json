@@ -1,0 +1,7 @@
+{
+  "name": "26abde0e-defc-72ca-881f-e243238de1c1",
+  "fromTable": "fVendas",
+  "fromColumn": "coupon_id",
+  "toTable": "dCupons",
+  "toColumn": "coupon_id"
+}

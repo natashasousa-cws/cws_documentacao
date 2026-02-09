@@ -1,0 +1,14 @@
+{
+  "name": "mfr_part_code",
+  "dataType": "string",
+  "sourceColumn": "mfr_part_code",
+  "lineageTag": "2dcae1d3-d2ae-482a-8143-cae848afac3d",
+  "sourceLineageTag": "mfr_part_code",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

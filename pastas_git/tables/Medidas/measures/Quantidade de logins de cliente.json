@@ -1,0 +1,11 @@
+{
+  "name": "Quantidade de logins de cliente",
+  "description": "Quantidade de logins de clientes",
+  "expression": [
+    "",
+    "CALCULATE ( [Quantidade de login], NOT ( ISBLANK ( dClientes[client_id] ) ) )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Login",
+  "lineageTag": "c1496285-5054-430a-9707-985d3230e995"
+}

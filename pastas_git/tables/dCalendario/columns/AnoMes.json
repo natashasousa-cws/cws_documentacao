@@ -1,0 +1,15 @@
+{
+  "name": "AnoMes",
+  "dataType": "int64",
+  "sourceColumn": "AnoMes",
+  "formatString": "0",
+  "lineageTag": "e672d2d0-0a5e-4dbd-a7ff-e67e875e0ffc",
+  "sourceLineageTag": "AnoMes",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

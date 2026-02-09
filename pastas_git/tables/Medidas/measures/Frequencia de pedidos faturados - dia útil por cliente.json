@@ -1,0 +1,13 @@
+{
+  "name": "Frequencia de pedidos faturados - dia útil por cliente",
+  "expression": [
+    "",
+    "AVERAGEX (",
+    "    VALUES ( dClientes[account_id] ),",
+    "    [Frequencia de pedidos - dia útil]",
+    ")"
+  ],
+  "formatString": "#,0.0",
+  "displayFolder": "Pedidos\\Faturado",
+  "lineageTag": "983daa38-5a46-4cad-8d8e-b2f39945cc2d"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Data ultimo pedido",
+  "expression": [
+    "",
+    "VAR UltimaData = MAX(fVendas[datekey])",
+    "",
+    "VAR UltimaDataReal =",
+    "DATE(",
+    "    INT(UltimaData / 10000),                            -- Ano",
+    "    INT(MOD(UltimaData, 10000) / 100),                  -- Mês",
+    "    MOD(UltimaData, 100)                                -- Dia",
+    ")",
+    "",
+    "RETURN",
+    "UltimaDataReal"
+  ],
+  "formatString": "dd/mm/yyyy",
+  "displayFolder": "Pedidos\\Geral",
+  "lineageTag": "65279795-62c1-4727-a298-2d00755b8339",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    }
+  ]
+}

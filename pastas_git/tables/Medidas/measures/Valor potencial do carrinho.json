@@ -1,0 +1,16 @@
+{
+  "name": "Valor potencial do carrinho",
+  "expression": [
+    "",
+    "SUMX(fCarrinhos_abandonados, fCarrinhos_abandonados[quantity] * fCarrinhos_abandonados[unit_price])"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Carrinhos abandonados",
+  "lineageTag": "0b370207-d13d-444d-baa6-6f928a870c36",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

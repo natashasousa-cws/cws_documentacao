@@ -1,0 +1,15 @@
+{
+  "name": "Offset_Ano",
+  "dataType": "int64",
+  "sourceColumn": "Offset_Ano",
+  "formatString": "0",
+  "lineageTag": "906cc253-58db-45fc-bc0c-b3e0c6cade0b",
+  "sourceLineageTag": "Offset_Ano",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

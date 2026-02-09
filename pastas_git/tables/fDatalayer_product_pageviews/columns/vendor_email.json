@@ -1,0 +1,14 @@
+{
+  "name": "vendor_email",
+  "dataType": "string",
+  "sourceColumn": "vendor_email",
+  "lineageTag": "c483b5ac-0788-45e9-abd7-999e52d931ae",
+  "sourceLineageTag": "vendor_email",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

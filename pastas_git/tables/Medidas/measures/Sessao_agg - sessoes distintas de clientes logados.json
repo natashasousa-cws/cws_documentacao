@@ -1,0 +1,13 @@
+{
+  "name": "Sessao_agg - sessoes distintas de clientes logados",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    [Sessao_agg - sessoes distintas],",
+    "    NOT ISBLANK(fDatalayer_session_summary[account_id])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Sessao_agg",
+  "lineageTag": "80f6022b-a38c-4803-8b08-2d1714c39d56"
+}

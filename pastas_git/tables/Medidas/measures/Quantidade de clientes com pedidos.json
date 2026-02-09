@@ -1,0 +1,12 @@
+{
+  "name": "Quantidade de clientes com pedidos",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DISTINCTCOUNT ( fVendas[client_account_id] )",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Clientes",
+  "lineageTag": "508bbf91-6453-46a7-9efe-a0dfddf43511"
+}

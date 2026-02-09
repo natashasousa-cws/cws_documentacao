@@ -1,0 +1,8 @@
+{
+  "name": "Cidade do cliente",
+  "expression": [
+    "CALCULATE(",
+    "    max(dClientes[city]))"
+  ],
+  "lineageTag": "973dcef5-6a55-4f73-a96a-f40a6e9b8a93"
+}

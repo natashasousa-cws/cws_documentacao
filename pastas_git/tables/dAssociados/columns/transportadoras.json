@@ -1,0 +1,14 @@
+{
+  "name": "transportadoras",
+  "dataType": "string",
+  "sourceColumn": "transportadoras",
+  "lineageTag": "a1e54aef-e79b-461f-b2f4-7bcc2dcb8ee6",
+  "sourceLineageTag": "transportadoras",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

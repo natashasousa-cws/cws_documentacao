@@ -1,0 +1,28 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Param_Y_Home Campos",
+  "dataType": "string",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value2]",
+  "sortByColumn": "Param_Y_Home Pedido",
+  "lineageTag": "356ba2df-2b29-453b-bd01-1f510284b5a7",
+  "summarizeBy": "none",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "ParameterMetadata",
+      "value": {
+        "version": 3,
+        "kind": 2
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

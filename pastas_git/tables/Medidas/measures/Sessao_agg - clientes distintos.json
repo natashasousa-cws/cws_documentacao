@@ -1,0 +1,13 @@
+{
+  "name": "Sessao_agg - clientes distintos",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(fDatalayer_session_summary[account_id]),",
+    "    NOT ISBLANK(fDatalayer_session_summary[account_id])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Sessao_agg",
+  "lineageTag": "60ab85fd-9312-4478-b985-3b7ec003d684"
+}

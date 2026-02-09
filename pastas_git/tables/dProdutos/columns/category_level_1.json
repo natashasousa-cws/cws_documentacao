@@ -1,0 +1,14 @@
+{
+  "name": "category_level_1",
+  "dataType": "string",
+  "sourceColumn": "category_level_1",
+  "lineageTag": "d64c753b-9e74-4bfe-b974-b0ecbc3fdbb9",
+  "sourceLineageTag": "category_level_1",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

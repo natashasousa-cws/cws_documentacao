@@ -1,0 +1,15 @@
+{
+  "name": "copartner_id",
+  "dataType": "int64",
+  "sourceColumn": "copartner_id",
+  "formatString": "0",
+  "lineageTag": "c25af2bf-f256-451a-a41b-a90c2f32e0a7",
+  "sourceLineageTag": "copartner_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

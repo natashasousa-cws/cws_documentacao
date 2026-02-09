@@ -1,0 +1,7 @@
+{
+  "name": "c023ce1e-f6d2-c1b2-2ee0-f15306fb80ab",
+  "fromTable": "fVendas",
+  "fromColumn": "sku_id",
+  "toTable": "dProdutos",
+  "toColumn": "sku_id"
+}

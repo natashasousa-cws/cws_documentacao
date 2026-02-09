@@ -1,0 +1,24 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "param_Vend_Y",
+  "dataType": "string",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Value1]",
+  "sortByColumn": "param_Vend_Y Pedido",
+  "lineageTag": "8ff22e11-f128-473a-b95b-0295c8462d9c",
+  "summarizeBy": "none",
+  "relatedColumnDetails": {
+    "groupByColumns": [
+      {
+        "groupingColumn": "param_Vend_Y Campos"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

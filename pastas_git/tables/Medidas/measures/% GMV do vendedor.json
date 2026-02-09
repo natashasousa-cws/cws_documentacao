@@ -1,0 +1,23 @@
+{
+  "name": "% GMV do vendedor",
+  "expression": [
+    "",
+    "VAR GT = CALCULATE(",
+    "    [GMV],",
+    "    ALL(fVendas[client_account_id], fVendas[salesperson_account_id])",
+    ")",
+    "RETURN",
+    "DIVIDE(",
+    "    [GMV Vendedor],",
+    "    GT",
+    ")"
+  ],
+  "displayFolder": "Receita digital\\GMV",
+  "lineageTag": "11357fdc-15e5-4d46-86b6-a66711ed8dc3",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

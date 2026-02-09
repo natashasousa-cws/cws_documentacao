@@ -1,0 +1,15 @@
+{
+  "name": "MesNo",
+  "dataType": "int64",
+  "sourceColumn": "MesNo",
+  "formatString": "0",
+  "lineageTag": "ff7a4737-0eb2-40fd-9420-86f740f65336",
+  "sourceLineageTag": "MesNo",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

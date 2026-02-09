@@ -1,0 +1,20 @@
+{
+  "name": "Taxa de abandono por item",
+  "expression": [
+    "",
+    "VAR carrinhos_total =",
+    "    CALCULATE (",
+    "        [Quantidade de carrinhos abandonados],",
+    "        ALL ( fCarrinhos_abandonados[sku_name] )",
+    "    )",
+    "VAR divs =",
+    "    CALCULATE (",
+    "        DIVIDE ( [Quantidade de carrinhos abandonados], carrinhos_total, 0 )",
+    "    )",
+    "RETURN",
+    "    divs"
+  ],
+  "formatString": "0%;-0%;0%",
+  "displayFolder": "Carrinhos abandonados",
+  "lineageTag": "ad966bb3-cc74-40bc-9720-34af1541652b"
+}

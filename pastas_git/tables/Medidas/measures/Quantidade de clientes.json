@@ -1,0 +1,27 @@
+{
+  "name": "Quantidade de clientes",
+  "description": [
+    "Total de clientes.",
+    "",
+    "Clientes é definido como conta com client_id.",
+    "",
+    "Podem existir mais contas que clientes.",
+    "",
+    "As informações de clientes se encontram em dClientes"
+  ],
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DISTINCTCOUNT ( dClientes[client_id] ),",
+    "    NOT(ISBLANK(dClientes[client_id]))",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Clientes",
+  "lineageTag": "11b8bcb9-f724-4172-a92a-f01446d1672b",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ]
+}

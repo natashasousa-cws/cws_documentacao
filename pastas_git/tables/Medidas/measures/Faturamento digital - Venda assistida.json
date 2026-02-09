@@ -1,0 +1,16 @@
+{
+  "name": "Faturamento digital - Venda assistida",
+  "expression": [
+    "",
+    "CALCULATE ( [Faturamento digital], dTipo_pedido[order_type_id] = 1 )"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\Faturado com imposto",
+  "lineageTag": "1eca893e-1560-47c2-94af-6b42d5aacb5b",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Funil - paginas",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "        COUNT( fDatalayer_agg_pageviews[pagepath] ),",
+    "        fDatalayer_agg_pageviews[funil] = \"pageView\"",
+    "    )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Datalayer - Funil",
+  "lineageTag": "20cce1bc-4224-4d28-8522-83e892bfa66b"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "d4e13599-dcdf-25ea-47a4-e41bd2040230",
+  "fromTable": "fDatalayer_agg_pageviews",
+  "fromColumn": "datekey_max_datecreated",
+  "toTable": "dCalendario",
+  "toColumn": "datekey"
+}

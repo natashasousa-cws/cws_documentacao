@@ -1,0 +1,7 @@
+{
+  "name": "bc24766c-a5fb-71e8-b37d-aa9c73a24aaf",
+  "fromTable": "fVendas",
+  "fromColumn": "payment_method_id",
+  "toTable": "dMetodo_pagamento",
+  "toColumn": "payment_method_id"
+}

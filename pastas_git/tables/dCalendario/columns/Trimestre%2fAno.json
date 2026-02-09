@@ -1,0 +1,14 @@
+{
+  "name": "Trimestre/Ano",
+  "dataType": "string",
+  "sourceColumn": "Trimestre/Ano",
+  "lineageTag": "b3aee50e-b0c4-4be8-8657-fa403c25f892",
+  "sourceLineageTag": "Trimestre/Ano",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "dClientes",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dClientes",
+    "expressionSource": "DirectLake - imdepa_gold_lake",
+    "schemaName": "imdepa"
+  }
+}

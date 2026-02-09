@@ -1,0 +1,15 @@
+{
+  "name": "Offset_Semana",
+  "dataType": "int64",
+  "sourceColumn": "Offset_Semana",
+  "formatString": "0",
+  "lineageTag": "066178e4-acdf-4f2c-9f18-d3663ce641d0",
+  "sourceLineageTag": "Offset_Semana",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

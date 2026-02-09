@@ -1,0 +1,14 @@
+{
+  "name": "sku_name",
+  "dataType": "string",
+  "sourceColumn": "sku_name",
+  "lineageTag": "fa2811b6-ff64-4ae3-97bc-814b02e95a92",
+  "sourceLineageTag": "sku_name",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "visitor_id",
+  "dataType": "int64",
+  "sourceColumn": "visitor_id",
+  "formatString": "0",
+  "lineageTag": "c3569a78-1fc8-4640-97d8-f7bbdec92830",
+  "sourceLineageTag": "visitor_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

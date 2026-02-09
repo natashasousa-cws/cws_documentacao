@@ -1,0 +1,19 @@
+{
+  "name": "order_subtotal",
+  "dataType": "decimal",
+  "sourceColumn": "order_subtotal",
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "lineageTag": "34828c9a-ebec-4e8f-89f0-93d8a57d9d18",
+  "sourceLineageTag": "order_subtotal",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

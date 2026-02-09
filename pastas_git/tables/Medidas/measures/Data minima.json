@@ -1,0 +1,13 @@
+{
+  "name": "Data minima",
+  "expression": "MIN(dCalendario[Data])",
+  "formatString": "dd/mm/yyyy",
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "9e7fb2d9-b5ea-496e-9e7b-10e3ce12ad61",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    }
+  ]
+}

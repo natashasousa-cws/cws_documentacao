@@ -1,0 +1,15 @@
+{
+  "name": "Semana_Completa",
+  "dataType": "boolean",
+  "sourceColumn": "Semana_Completa",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "91fd5fe0-8490-42df-a88b-ead4b44e7a65",
+  "sourceLineageTag": "Semana_Completa",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

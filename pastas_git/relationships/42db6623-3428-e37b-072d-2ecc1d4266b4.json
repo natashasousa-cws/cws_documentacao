@@ -1,0 +1,7 @@
+{
+  "name": "42db6623-3428-e37b-072d-2ecc1d4266b4",
+  "fromTable": "fVendas",
+  "fromColumn": "order_status_id",
+  "toTable": "dStatus_pedido",
+  "toColumn": "order_status_id"
+}

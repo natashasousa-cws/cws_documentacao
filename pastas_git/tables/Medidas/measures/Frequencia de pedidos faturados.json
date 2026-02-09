@@ -1,0 +1,23 @@
+{
+  "name": "Frequencia de pedidos faturados",
+  "expression": [
+    "",
+    "VAR dtmin =",
+    "    CALCULATE (",
+    "        CONVERT ( MIN ( fVendas[datekey] ), DATETIME ),",
+    "        dStatus_pedido[order_status_id] > 4",
+    "    )",
+    "VAR ciclo =",
+    "    DATEDIFF ( dtmin, TODAY (), DAY )",
+    "RETURN",
+    "    DIVIDE ( ciclo, [Pedidos] )"
+  ],
+  "formatString": "#,0.0",
+  "displayFolder": "Pedidos\\Faturado",
+  "lineageTag": "e9f40fb6-19c4-4eea-a8f0-6098f15dbc2e",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ]
+}

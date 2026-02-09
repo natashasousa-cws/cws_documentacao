@@ -1,0 +1,24 @@
+{
+  "name": "Faturamento digital sem imposto",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    SUMX (",
+    "        VALUES ( fVendas[partner_order_id] ),",
+    "        CALCULATE (",
+    "            AVERAGE ( fVendas[order_subtotal] ),",
+    "            dStatus_pedido[order_status_id] > 4",
+    "        )",
+    "    )",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+  "displayFolder": "Receita digital\\Faturado sem imposto",
+  "lineageTag": "f52a1a49-b303-4a58-8ec6-2c2a787aa59a",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

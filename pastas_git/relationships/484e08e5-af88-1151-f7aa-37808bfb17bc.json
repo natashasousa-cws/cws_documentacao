@@ -1,0 +1,7 @@
+{
+  "name": "484e08e5-af88-1151-f7aa-37808bfb17bc",
+  "fromTable": "fVendas",
+  "fromColumn": "partner_id",
+  "toTable": "dAssociados",
+  "toColumn": "copartner_id"
+}

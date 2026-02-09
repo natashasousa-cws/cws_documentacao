@@ -1,0 +1,7 @@
+{
+  "name": "cb87b03d-b488-d232-76cf-aab36375df68",
+  "fromTable": "fCarrinhos_abandonados",
+  "fromColumn": "client_account_id",
+  "toTable": "dClientes",
+  "toColumn": "account_id"
+}

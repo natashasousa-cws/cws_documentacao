@@ -1,0 +1,19 @@
+{
+  "name": "Preco maximo vendido",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    MAX(fVendas[amount_charged]),",
+    "    ALLEXCEPT(fVendas,fVendas[sku_id],dAssociados[trading_name])",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Produtos\\Geral",
+  "lineageTag": "044be161-7120-4b70-afcb-d2b1add83e61",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

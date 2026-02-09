@@ -1,0 +1,12 @@
+{
+  "name": "Ofertas distinta",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(dOfertas[sku_id])",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Ofertas",
+  "lineageTag": "93352dd2-a0ca-486c-85b3-e761560da77c"
+}

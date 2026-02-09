@@ -1,0 +1,42 @@
+{
+  "name": "Ticket Medio MoM",
+  "expression": [
+    "",
+    "VAR UltimaData = ",
+    "CALCULATE(",
+    "    MAX(fVendas[datekey]),",
+    "    REMOVEFILTERS(dCalendario)",
+    ")",
+    "",
+    "VAR UltimaDataReal =",
+    "DATE(",
+    "    INT(UltimaData / 10000),                            -- Ano",
+    "    INT(MOD(UltimaData, 10000) / 100),                  -- Mês",
+    "    MOD(UltimaData, 100)                                -- Dia",
+    ")",
+    "",
+    "VAR DataLimite =",
+    "EDATE(UltimaDataReal, -1)",
+    "",
+    "VAR MoM =",
+    "CALCULATE(",
+    "    [Ticket Médio],",
+    "    DATEADD(dCalendario[Data], -1,MONTH),",
+    "    FILTER(",
+    "        ALL(dCalendario), dCalendario[Data] <= DataLimite",
+    "    )",
+    ")",
+    "",
+    "RETURN",
+    "MoM"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "8578dd29-83b5-40e5-aabf-503632786230",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

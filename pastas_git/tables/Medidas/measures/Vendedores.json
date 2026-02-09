@@ -1,0 +1,13 @@
+{
+  "name": "Vendedores",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(dVendedores[account_id]),",
+    "    dVendedores[client_id] <> BLANK(),",
+    "    USERELATIONSHIP(dVendedores[client_create_date],dCalendario[Data])",
+    ")"
+  ],
+  "displayFolder": "Vendedores",
+  "lineageTag": "f92a1483-517e-4cba-9433-616fde618984"
+}

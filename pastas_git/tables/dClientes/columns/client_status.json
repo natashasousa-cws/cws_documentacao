@@ -1,0 +1,15 @@
+{
+  "name": "client_status",
+  "dataType": "boolean",
+  "sourceColumn": "client_status",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "f21342b8-4dd7-4922-a368-952c3e29cea6",
+  "sourceLineageTag": "client_status",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

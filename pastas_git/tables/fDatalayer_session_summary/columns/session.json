@@ -1,0 +1,14 @@
+{
+  "name": "session",
+  "dataType": "string",
+  "sourceColumn": "session",
+  "lineageTag": "abc10d83-279e-4f7b-a6a5-14ec4f2b591e",
+  "sourceLineageTag": "session",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

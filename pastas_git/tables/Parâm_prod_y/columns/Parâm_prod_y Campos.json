@@ -1,0 +1,28 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Parâm_prod_y Campos",
+  "dataType": "string",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value2]",
+  "sortByColumn": "Parâm_prod_y Pedido",
+  "lineageTag": "11953f4a-a7b1-4ee5-a84a-95d7b4baa675",
+  "summarizeBy": "none",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "ParameterMetadata",
+      "value": {
+        "version": 3,
+        "kind": 2
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

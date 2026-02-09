@@ -1,0 +1,14 @@
+{
+  "name": "partner",
+  "dataType": "string",
+  "sourceColumn": "partner",
+  "lineageTag": "56b1364a-9630-4ea2-b016-731f145b6f24",
+  "sourceLineageTag": "partner",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

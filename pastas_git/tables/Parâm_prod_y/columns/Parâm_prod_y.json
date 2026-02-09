@@ -1,0 +1,24 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Parâm_prod_y",
+  "dataType": "string",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Value1]",
+  "sortByColumn": "Parâm_prod_y Pedido",
+  "lineageTag": "17808a62-8607-46b2-9afb-75077e1d1ddd",
+  "summarizeBy": "none",
+  "relatedColumnDetails": {
+    "groupByColumns": [
+      {
+        "groupingColumn": "Parâm_prod_y Campos"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

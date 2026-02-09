@@ -1,0 +1,8 @@
+{
+  "name": "Nome cliente",
+  "expression": [
+    "CALCULATE(",
+    "    max(dClientes[name]))"
+  ],
+  "lineageTag": "8a9b7692-f7f8-4cdd-9c91-507d54b8b490"
+}

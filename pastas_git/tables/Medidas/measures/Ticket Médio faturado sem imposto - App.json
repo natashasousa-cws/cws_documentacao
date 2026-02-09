@@ -1,0 +1,21 @@
+{
+  "name": "Ticket Médio faturado sem imposto - App",
+  "expression": [
+    "",
+    "DIVIDE ( [Faturamento digital sem imposto - App], [Pedidos faturados - App] )"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Ticket Médio\\Faturado sem imposto",
+  "lineageTag": "6e41fbb7-b08b-4534-8955-49f19b42cdc3",
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}

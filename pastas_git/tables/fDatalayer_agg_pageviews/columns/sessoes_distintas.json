@@ -1,0 +1,15 @@
+{
+  "name": "sessoes_distintas",
+  "dataType": "int64",
+  "sourceColumn": "sessoes_distintas",
+  "formatString": "0",
+  "lineageTag": "16f169a9-e30f-497b-bdca-bf1f488de4cc",
+  "sourceLineageTag": "sessoes_distintas",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

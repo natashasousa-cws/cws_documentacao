@@ -1,0 +1,14 @@
+{
+  "name": "marketplace",
+  "dataType": "string",
+  "sourceColumn": "marketplace",
+  "lineageTag": "f7152b0e-2836-4fb4-9674-0a3ab006c26a",
+  "sourceLineageTag": "marketplace",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

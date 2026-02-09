@@ -1,0 +1,23 @@
+{
+  "name": "Taxa de abandono",
+  "expression": [
+    "",
+    "VAR pedidos_geral =",
+    "    CALCULATE ( DISTINCTCOUNT ( fVendas[partner_order_id] ) )",
+    "VAR carrinhos_geral =",
+    "    CALCULATE (",
+    "        DISTINCTCOUNT ( fCarrinhos_abandonados[session_id] ),",
+    "        fCarrinhos_abandonados[cart_type] = \"Carrinho abandonado\"",
+    "    )",
+    "VAR carrinhos =",
+    "    CALCULATE ( DISTINCTCOUNT ( fCarrinhos_abandonados[session_id] ) )",
+    "VAR total = pedidos_geral + carrinhos_geral",
+    "VAR taxa =",
+    "    CALCULATE ( DIVIDE ( carrinhos, total, 0 ) )",
+    "RETURN",
+    "    taxa"
+  ],
+  "formatString": "0%;-0%;0%",
+  "displayFolder": "Carrinhos abandonados",
+  "lineageTag": "6e9c7290-0e50-4194-b6a3-ce2bdfa2850e"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "882601bb-af22-c5ca-e62e-2dc8ac837789",
+  "fromTable": "dClientes",
+  "fromColumn": "datekey",
+  "toTable": "dCalendario",
+  "toColumn": "datekey",
+  "isActive": false
+}

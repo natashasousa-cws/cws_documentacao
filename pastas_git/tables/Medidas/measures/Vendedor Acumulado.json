@@ -1,0 +1,14 @@
+{
+  "name": "Vendedor Acumulado",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(dVendedores[account_id]),",
+    "    dVendedores[client_id] <> BLANK(),",
+    "    dVendedores[account_create_date] <= MAX(dCalendario[Data])",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Vendedores",
+  "lineageTag": "3d99c8a2-b9c5-4fed-9ef4-7f09a909d580"
+}

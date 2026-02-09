@@ -1,0 +1,16 @@
+{
+  "name": "Variacao de pedidos YoY",
+  "expression": [
+    "",
+    "VAR variacao = [Pedidos] - [Pedidos YoY]",
+    "",
+    "RETURN",
+    "DIVIDE(",
+    "    variacao,",
+    "    [Pedidos YoY]",
+    ")"
+  ],
+  "formatString": "0%;-0%;0%",
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "255b7a42-d5ee-4e5e-8f4b-3209f5529426"
+}

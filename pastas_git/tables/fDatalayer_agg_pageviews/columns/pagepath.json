@@ -1,0 +1,14 @@
+{
+  "name": "pagepath",
+  "dataType": "string",
+  "sourceColumn": "pagepath",
+  "lineageTag": "f7c8316b-b121-4bda-89af-41e76a363814",
+  "sourceLineageTag": "pagepath",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

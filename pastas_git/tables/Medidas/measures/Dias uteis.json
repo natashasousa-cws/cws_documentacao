@@ -1,0 +1,20 @@
+{
+  "name": "Dias uteis",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    COUNTROWS(dCalendario),",
+    "    FILTER(",
+    "        dCalendario,",
+    "        dCalendario[DiaÚtil] = TRUE()",
+    "    ),",
+    "    FILTER(",
+    "        dCalendario,",
+    "        dCalendario[Futuro] = FALSE()",
+    "    )",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Inteligencia_temporal",
+  "lineageTag": "d3a20f35-0d9e-492e-a0f2-a9eecb762eec"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Conversao de ofertas",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    [Pedidos],",
+    "    [Ofertas]",
+    ")"
+  ],
+  "formatString": "#,0.0%;-#,0.0%;#,0.0%",
+  "displayFolder": "Ofertas",
+  "lineageTag": "25d99373-b245-44bd-b033-121eb264d6fa"
+}

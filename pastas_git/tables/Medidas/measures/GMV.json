@@ -1,0 +1,20 @@
+{
+  "name": "GMV",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    SUMX(fVendas,",
+    "        (fVendas[quantity] * fVendas[amount_charged]) + fVendas[median_charged_shipping] + fVendas[avg_credit_card_interest] + fVendas[avg_total_tax]",
+    "    )",
+    ")"
+  ],
+  "formatString": "\"R$\"\\ #,0.0;-\"R$\"\\ #,0.0;\"R$\"\\ #,0.0",
+  "displayFolder": "Receita digital\\GMV",
+  "lineageTag": "d14aed45-e25d-4067-b213-048e8de7c248",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"pt-BR\"}"
+    }
+  ]
+}
